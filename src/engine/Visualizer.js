@@ -39,9 +39,14 @@ class Visualizer {
         this.mountains = [];
         this.data = [];
         
-        // Use Vite's base URL for correct path resolution in prod and dev
+        // Ensure baseUrl always ends with a slash and is robust
         this.baseUrl = import.meta.env.BASE_URL;
+        if (!this.baseUrl.endsWith('/')) {
+            this.baseUrl += '/';
+        }
         
+        console.log("Visualizer initialized. Base URL is:", this.baseUrl);
+
         this.init();
     }
 
@@ -76,23 +81,63 @@ class Visualizer {
     }
 
     async loadData() {
+        const jsonUrl = `${this.baseUrl}assets/data/mountains_data.json`;
+        console.log("Attempting to fetch data from:", jsonUrl);
+        
         try {
-            // Updated path to use baseUrl
-            const response = await fetch(`./assets/data/mountains_data.json`);
-            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
+            const response = await fetch(jsonUrl);
+            if (!response.ok) {
+                console.error("Fetch failed with status:", response.status, response.statusText);
+                throw new Error(`HTTP error! status: ${response.status}`);
+            }
             this.data = await response.json();
+            console.log("Data loaded successfully. City count:", this.data.length);
+            
             this.createMountains(this.data);
             this.populateCitySelector(this.data);
         } catch (error) {
-            console.error("Could not load mountain data:", error);
+            console.error("CRITICAL ERROR: Could not load mountain data:", error);
+            // Optional: Display a visual error to the user on screen here
+            this.showErrorOnScreen("Failed to load map data. Please check console.");
         }
+    }
+    
+    showErrorOnScreen(message) {
+        const errDiv = document.createElement('div');
+        errDiv.style.position = 'absolute';
+        errDiv.style.top = '50%';
+        errDiv.style.left = '50%';
+        errDiv.style.transform = 'translate(-50%, -50%)';
+        errDiv.style.color = 'red';
+        errDiv.style.backgroundColor = 'rgba(0,0,0,0.8)';
+        errDiv.style.padding = '20px';
+        errDiv.style.zIndex = '9999';
+        errDiv.innerText = message;
+        document.body.appendChild(errDiv);
     }
 
     createMountains(data) {
         const textureLoader = new THREE.TextureLoader();
-        // Updated paths to use baseUrl
-        const industrialTexture = textureLoader.load(`./assets/textures/industrial.jpg`);
-        const naturalTexture = textureLoader.load(`./assets/textures/natural.jpg`);
+        
+        const industrialUrl = `${this.baseUrl}assets/textures/industrial.jpg`;
+        const naturalUrl = `${this.baseUrl}assets/textures/natural.jpg`;
+        
+        console.log("Loading textures from:", industrialUrl, "and", naturalUrl);
+
+        // Add error callbacks to the texture loader to see if they fail
+        const industrialTexture = textureLoader.load(
+            industrialUrl, 
+            undefined, // onLoad callback
+            undefined, // onProgress callback
+            (err) => console.error("Error loading industrial texture:", err) // onError callback
+        );
+        
+        const naturalTexture = textureLoader.load(
+            naturalUrl,
+            undefined,
+            undefined,
+            (err) => console.error("Error loading natural texture:", err)
+        );
 
         data.forEach((cityData, index) => {
             const geometry = new THREE.PlaneGeometry(cityData.baseWidth * 40 + 15, cityData.baseWidth * 40 + 15, 100, 100);
@@ -127,6 +172,8 @@ class Visualizer {
             this.scene.add(mountain);
             this.mountains.push(mountain);
         });
+        
+        console.log("Successfully created", this.mountains.length, "mountains in the scene.");
     }
 
     populateCitySelector(data) {
