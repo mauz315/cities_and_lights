@@ -1,4 +1,10 @@
 <!DOCTYPE html>
+<script>
+  window.addEventListener('error', function(event) {
+    alert('Fatal Crash: ' + event.message + ' at line ' + event.lineno);
+  });
+</script>
+
 <html class="dark" lang="en">
 <head>
     <meta charset="utf-8"/>
