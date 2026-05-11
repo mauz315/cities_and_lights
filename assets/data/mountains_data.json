@@ -13,7 +13,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.12030075187969926,
         "textureID": "natural",
-        "glow": 0.5588041182682154
+        "glow": 0.5588041182682154,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 65.0,
+            "Air Quality Index": 45.0,
+            "Happiness Score": 7.8,
+            "Cost of Living Index": 105.0,
+            "Healthcare Index": 90.0
+        }
     },
     {
         "city": "Amberley",
@@ -26,10 +35,19 @@
         "steepness": 0.021350769046621563,
         "peakSharpness": 0.9397321428571428,
         "plateauSize": 0.4906082648212399,
-        "creviceDepth": 0.38095238095238093,
+        "creviceDepth": 0.2857142857142857,
         "cloudLevel": 0.0719656283566058,
         "textureID": "natural",
-        "glow": 0.13681362196409708
+        "glow": 0.13681362196409708,
+        "originalData": {
+            "Decibel Level": 59.29,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 1747.86,
+            "Air Quality Index": 34.29,
+            "Happiness Score": -82.27,
+            "Cost of Living Index": 20.71,
+            "Healthcare Index": 95.14
+        }
     },
     {
         "city": "Amsterdam",
@@ -45,7 +63,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.14285714285714288,
         "textureID": "natural",
-        "glow": 0.4968321013727561
+        "glow": 0.4968321013727561,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 75.0,
+            "Air Quality Index": 50.0,
+            "Happiness Score": 7.9,
+            "Cost of Living Index": 105.0,
+            "Healthcare Index": 90.0
+        }
     },
     {
         "city": "Aranga",
@@ -61,39 +88,66 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5229012671594508
+        "glow": 0.5229012671594508,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 355.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 1.0,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Arrowtown",
         "peakHeight": 0.5374868004223865,
         "baseWidth": 0.0,
         "roughness": 0.125,
-        "numPeaks": 2,
+        "numPeaks": 1,
         "snowCap": 0.9473684210526315,
         "treeDensity": 0.5308755760368664,
         "steepness": 0.2345622119815668,
         "peakSharpness": 0.953125,
         "plateauSize": 0.7453059002111933,
-        "creviceDepth": 0.2222222222222222,
+        "creviceDepth": 0.16666666666666666,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.33124340021119325
+        "glow": 0.33124340021119325,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 965.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -35.3,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Arthur's Pass",
         "peakHeight": 0.5168954593453009,
         "baseWidth": 0.022727272727272728,
         "roughness": 0.1875,
-        "numPeaks": 2,
+        "numPeaks": 1,
         "snowCap": 0.9586466165413534,
         "treeDensity": 0.5488479262672812,
         "steepness": 0.23693967322999576,
         "peakSharpness": 0.9609375,
         "plateauSize": 0.7389164796726504,
-        "creviceDepth": 0.2222222222222222,
+        "creviceDepth": 0.16666666666666666,
         "cloudLevel": 0.04135338345864662,
         "textureID": "natural",
-        "glow": 0.35219772967265045
+        "glow": 0.35219772967265045,
+        "originalData": {
+            "Decibel Level": 57.5,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 997.5,
+            "Air Quality Index": 27.5,
+            "Happiness Score": -37.25,
+            "Cost of Living Index": 22.5,
+            "Healthcare Index": 96.5
+        }
     },
     {
         "city": "Ashburton",
@@ -106,58 +160,94 @@
         "steepness": 0.010009076944560822,
         "peakSharpness": 0.9401041666666667,
         "plateauSize": 0.4771798552446321,
-        "creviceDepth": 0.3703703703703704,
+        "creviceDepth": 0.2777777777777778,
         "cloudLevel": 0.07142857142857142,
         "textureID": "natural",
-        "glow": 0.12171110524463204
+        "glow": 0.12171110524463204,
+        "originalData": {
+            "Decibel Level": 59.17,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 1790.83,
+            "Air Quality Index": 34.17,
+            "Happiness Score": -84.85,
+            "Cost of Living Index": 20.83,
+            "Healthcare Index": 95.17
+        }
     },
     {
         "city": "Athens",
         "peakHeight": 0.9757127771911299,
         "baseWidth": 0.45454545454545453,
         "roughness": 0.375,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.744360902255639,
         "treeDensity": 0.022119815668202765,
         "steepness": 0.7162128194386259,
         "peakSharpness": 0.625,
         "plateauSize": 0.8003563885955649,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.25563909774436094,
         "textureID": "natural",
-        "glow": 0.6753563885955649
+        "glow": 0.6753563885955649,
+        "originalData": {
+            "Decibel Level": 65.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 45.0,
+            "Air Quality Index": 75.0,
+            "Happiness Score": 6.2,
+            "Cost of Living Index": 70.0,
+            "Healthcare Index": 75.0
+        }
     },
     {
         "city": "Auckland",
         "peakHeight": 0.8980992608236535,
         "baseWidth": 0.36363636363636365,
         "roughness": 0.125,
-        "numPeaks": 2,
+        "numPeaks": 1,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.17142857142857143,
         "steepness": 0.596103896103896,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9177996304118268,
-        "creviceDepth": 0.2222222222222222,
+        "creviceDepth": 0.16666666666666666,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5115496304118268
+        "glow": 0.5115496304118268,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 315.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -1.15,
+            "Cost of Living Index": 60.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Awanui",
         "peakHeight": 0.8891235480464625,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.223963133640553,
         "steepness": 0.3880184331797235,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9133117740232313,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5695617740232313
+        "glow": 0.5695617740232313,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 410.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -2.0,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Balclutha",
@@ -173,7 +263,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.2703273495248152
+        "glow": 0.2703273495248152,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 960.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -35.0,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Bangalore",
@@ -189,39 +288,66 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.9774436090225563,
         "textureID": "industrial",
-        "glow": 0.9111008447729673
+        "glow": 0.9111008447729673,
+        "originalData": {
+            "Decibel Level": 85.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 10.0,
+            "Air Quality Index": 235.0,
+            "Happiness Score": 3.5,
+            "Cost of Living Index": 45.0,
+            "Healthcare Index": 55.0
+        }
     },
     {
         "city": "Bangkok",
         "peakHeight": 0.9524815205913411,
         "baseWidth": 0.2727272727272727,
         "roughness": 0.75,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.5864661654135338,
         "treeDensity": 0.011059907834101382,
         "steepness": 0.6308336824465857,
         "peakSharpness": 0.3125,
         "plateauSize": 0.6324907602956705,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.4135338345864662,
         "textureID": "industrial",
-        "glow": 0.8512407602956705
+        "glow": 0.8512407602956705,
+        "originalData": {
+            "Decibel Level": 80.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 25.0,
+            "Air Quality Index": 110.0,
+            "Happiness Score": 4.0,
+            "Cost of Living Index": 50.0,
+            "Healthcare Index": 55.0
+        }
     },
     {
         "city": "Barcelona",
         "peakHeight": 0.9915522703273496,
         "baseWidth": 0.6363636363636364,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.03317972350230415,
         "steepness": 0.8015919564306662,
         "peakSharpness": 0.78125,
         "plateauSize": 0.8864011351636748,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.6207761351636748
+        "glow": 0.6207761351636748,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 65.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 7.7,
+            "Cost of Living Index": 90.0,
+            "Healthcare Index": 85.0
+        }
     },
     {
         "city": "Beijing",
@@ -237,23 +363,41 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.706766917293233,
         "textureID": "industrial",
-        "glow": 0.8538806758183738
+        "glow": 0.8538806758183738,
+        "originalData": {
+            "Decibel Level": 80.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 15.0,
+            "Air Quality Index": 175.0,
+            "Happiness Score": 4.5,
+            "Cost of Living Index": 85.0,
+            "Healthcare Index": 70.0
+        }
     },
     {
         "city": "Belgrade",
         "peakHeight": 0.9683210137275607,
         "baseWidth": 0.3181818181818182,
         "roughness": 0.625,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.6992481203007519,
         "treeDensity": 0.013824884792626729,
         "steepness": 0.6521784666945957,
         "peakSharpness": 0.546875,
         "plateauSize": 0.7575980068637804,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.30075187969924816,
         "textureID": "industrial",
-        "glow": 0.7966605068637804
+        "glow": 0.7966605068637804,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 30.0,
+            "Air Quality Index": 85.0,
+            "Happiness Score": 5.5,
+            "Cost of Living Index": 55.0,
+            "Healthcare Index": 70.0
+        }
     },
     {
         "city": "Berlin",
@@ -269,7 +413,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.4947201689545935
+        "glow": 0.4947201689545935,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 55.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 7.5,
+            "Cost of Living Index": 80.0,
+            "Healthcare Index": 85.0
+        }
     },
     {
         "city": "Blenheim",
@@ -285,7 +438,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.1332497360084477
+        "glow": 0.1332497360084477,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1590.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -72.8,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Bluff",
@@ -301,23 +463,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.046186895810955975,
         "textureID": "natural",
-        "glow": 0.1094904963041183
+        "glow": 0.1094904963041183,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1665.0,
+            "Air Quality Index": 28.57,
+            "Happiness Score": -77.3,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.29
+        }
     },
     {
         "city": "Bogota",
         "peakHeight": 0.9630411826821542,
         "baseWidth": 0.36363636363636365,
         "roughness": 0.5,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.5864661654135338,
         "treeDensity": 0.013824884792626729,
         "steepness": 0.6749057394218685,
         "peakSharpness": 0.46875,
         "plateauSize": 0.7158955913410772,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.4135338345864662,
         "textureID": "industrial",
-        "glow": 0.7315205913410772
+        "glow": 0.7315205913410772,
+        "originalData": {
+            "Decibel Level": 70.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 30.0,
+            "Air Quality Index": 110.0,
+            "Happiness Score": 5.0,
+            "Cost of Living Index": 60.0,
+            "Healthcare Index": 65.0
+        }
     },
     {
         "city": "Brisbane",
@@ -333,39 +513,66 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.09774436090225565,
         "textureID": "natural",
-        "glow": 0.6218321013727561
+        "glow": 0.6218321013727561,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 70.0,
+            "Air Quality Index": 40.0,
+            "Happiness Score": 7.9,
+            "Cost of Living Index": 100.0,
+            "Healthcare Index": 91.0
+        }
     },
     {
         "city": "Budapest",
         "peakHeight": 0.9820485744456177,
         "baseWidth": 0.5,
         "roughness": 0.375,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.7669172932330827,
         "treeDensity": 0.022119815668202765,
         "steepness": 0.7389400921658986,
         "peakSharpness": 0.703125,
         "plateauSize": 0.8425867872228088,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.23308270676691734,
         "textureID": "natural",
-        "glow": 0.6785242872228088
+        "glow": 0.6785242872228088,
+        "originalData": {
+            "Decibel Level": 65.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 45.0,
+            "Air Quality Index": 70.0,
+            "Happiness Score": 6.8,
+            "Cost of Living Index": 75.0,
+            "Healthcare Index": 80.0
+        }
     },
     {
         "city": "Buenos Aires",
         "peakHeight": 0.9746568109820485,
         "baseWidth": 0.36363636363636365,
         "roughness": 0.375,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.8120300751879699,
         "treeDensity": 0.01935483870967742,
         "steepness": 0.6721407624633431,
         "peakSharpness": 0.625,
         "plateauSize": 0.7998284054910243,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.1879699248120301,
         "textureID": "industrial",
-        "glow": 0.6748284054910243
+        "glow": 0.6748284054910243,
+        "originalData": {
+            "Decibel Level": 65.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 40.0,
+            "Air Quality Index": 60.0,
+            "Happiness Score": 6.1,
+            "Cost of Living Index": 60.0,
+            "Healthcare Index": 75.0
+        }
     },
     {
         "city": "Cable Bay",
@@ -381,7 +588,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5118136219640972
+        "glow": 0.5118136219640972,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 395.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -1.1,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Cairo",
@@ -397,7 +613,16 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.4360902255639098,
         "textureID": "industrial",
-        "glow": 0.7861008447729673
+        "glow": 0.7861008447729673,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 20.0,
+            "Air Quality Index": 115.0,
+            "Happiness Score": 3.5,
+            "Cost of Living Index": 55.0,
+            "Healthcare Index": 65.0
+        }
     },
     {
         "city": "Cambridge",
@@ -413,7 +638,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5588041182682154
+        "glow": 0.5588041182682154,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 185.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 7.8,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Canberra",
@@ -429,7 +663,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5598600844772967
+        "glow": 0.5598600844772967,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 75.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 8.0,
+            "Cost of Living Index": 95.0,
+            "Healthcare Index": 92.0
+        }
     },
     {
         "city": "Canterbury",
@@ -445,7 +688,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.22353484688489964
+        "glow": 0.22353484688489964,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1305.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -55.7,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Cape Town",
@@ -461,7 +713,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.12030075187969926,
         "textureID": "natural",
-        "glow": 0.5577481520591341
+        "glow": 0.5577481520591341,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 60.0,
+            "Air Quality Index": 45.0,
+            "Happiness Score": 7.6,
+            "Cost of Living Index": 70.0,
+            "Healthcare Index": 80.0
+        }
     },
     {
         "city": "Caracas",
@@ -477,23 +738,41 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.4360902255639098,
         "textureID": "industrial",
-        "glow": 0.783460929250264
+        "glow": 0.783460929250264,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 20.0,
+            "Air Quality Index": 115.0,
+            "Happiness Score": 3.0,
+            "Cost of Living Index": 50.0,
+            "Healthcare Index": 55.0
+        }
     },
     {
         "city": "Chicago",
         "peakHeight": 0.9841605068637803,
         "baseWidth": 0.5909090909090909,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.8345864661654135,
         "treeDensity": 0.013824884792626729,
         "steepness": 0.788542103058232,
         "peakSharpness": 0.546875,
         "plateauSize": 0.7655177534318902,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.16541353383458648,
         "textureID": "natural",
-        "glow": 0.6170802534318902
+        "glow": 0.6170802534318902,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 30.0,
+            "Air Quality Index": 55.0,
+            "Happiness Score": 7.0,
+            "Cost of Living Index": 85.0,
+            "Healthcare Index": 70.0
+        }
     },
     {
         "city": "Christchurch",
@@ -509,7 +788,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.04699248120300752,
         "textureID": "natural",
-        "glow": 0.1685998548046462
+        "glow": 0.1685998548046462,
+        "originalData": {
+            "Decibel Level": 54.38,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1434.38,
+            "Air Quality Index": 28.75,
+            "Happiness Score": -64.62,
+            "Cost of Living Index": 31.88,
+            "Healthcare Index": 95.88
+        }
     },
     {
         "city": "Clinton",
@@ -525,7 +813,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.3344112988384371
+        "glow": 0.3344112988384371,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 955.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -34.7,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Collingwood",
@@ -541,39 +838,66 @@
         "creviceDepth": 1.5419764230904953e-17,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.2676434354100669
+        "glow": 0.2676434354100669,
+        "originalData": {
+            "Decibel Level": 53.33,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1100.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -43.4,
+            "Cost of Living Index": 23.33,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Colombo",
         "peakHeight": 0.9683210137275607,
         "baseWidth": 0.22727272727272727,
         "roughness": 0.625,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.18045112781954886,
         "treeDensity": 0.011059907834101382,
         "steepness": 0.608106409719313,
         "peakSharpness": 0.390625,
         "plateauSize": 0.6794730068637804,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.8195488721804511,
         "textureID": "industrial",
-        "glow": 0.7966605068637804
+        "glow": 0.7966605068637804,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 25.0,
+            "Air Quality Index": 200.0,
+            "Happiness Score": 5.5,
+            "Cost of Living Index": 45.0,
+            "Healthcare Index": 60.0
+        }
     },
     {
         "city": "Coopers Beach",
         "peakHeight": 0.9017951425554382,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.21290322580645163,
         "steepness": 0.3935483870967742,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9196475712777191,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5758975712777191
+        "glow": 0.5758975712777191,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 390.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -0.8,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Copenhagen",
@@ -589,7 +913,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.4989440337909187
+        "glow": 0.4989440337909187,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 75.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 8.3,
+            "Cost of Living Index": 110.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Coromandel",
@@ -605,7 +938,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5556362196409714
+        "glow": 0.5556362196409714,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 225.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 7.2,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Cromwell",
@@ -618,10 +960,19 @@
         "steepness": 0.09400397989107663,
         "peakSharpness": 0.953125,
         "plateauSize": 0.5647356784582893,
-        "creviceDepth": 0.05555555555555554,
+        "creviceDepth": 0.04166666666666667,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.1506731784582893
+        "glow": 0.1506731784582893,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1535.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -69.5,
+            "Cost of Living Index": 23.75,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Dargaville",
@@ -637,7 +988,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5413806758183738
+        "glow": 0.5413806758183738,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 285.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 4.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Dhaka",
@@ -653,39 +1013,66 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.7969924812030075,
         "textureID": "industrial",
-        "glow": 0.9683210137275606
+        "glow": 0.9683210137275606,
+        "originalData": {
+            "Decibel Level": 90.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 5.0,
+            "Air Quality Index": 195.0,
+            "Happiness Score": 2.5,
+            "Cost of Living Index": 35.0,
+            "Healthcare Index": 40.0
+        }
     },
     {
         "city": "Dubai",
         "peakHeight": 0.9736008447729673,
         "baseWidth": 0.8181818181818182,
         "roughness": 0.5,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.5413533834586466,
         "treeDensity": 0.016589861751152075,
         "steepness": 0.9007959782153331,
         "peakSharpness": 0.78125,
         "plateauSize": 0.8774254223864837,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.4586466165413534,
         "textureID": "natural",
-        "glow": 0.7368004223864837
+        "glow": 0.7368004223864837,
+        "originalData": {
+            "Decibel Level": 70.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 35.0,
+            "Air Quality Index": 120.0,
+            "Happiness Score": 6.0,
+            "Cost of Living Index": 110.0,
+            "Healthcare Index": 85.0
+        }
     },
     {
         "city": "Dublin",
         "peakHeight": 0.9841605068637803,
         "baseWidth": 0.7727272727272727,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.9022556390977443,
         "treeDensity": 0.027649769585253458,
         "steepness": 0.8725387515710097,
         "peakSharpness": 0.78125,
         "plateauSize": 0.8827052534318902,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.09774436090225565,
         "textureID": "natural",
-        "glow": 0.6170802534318902
+        "glow": 0.6170802534318902,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 55.0,
+            "Air Quality Index": 40.0,
+            "Happiness Score": 7.0,
+            "Cost of Living Index": 105.0,
+            "Healthcare Index": 85.0
+        }
     },
     {
         "city": "Dunedin",
@@ -698,10 +1085,19 @@
         "steepness": 0.16241912209654144,
         "peakSharpness": 0.9739583333333333,
         "plateauSize": 0.612873804704916,
-        "creviceDepth": 0.04938271604938273,
+        "creviceDepth": 0.037037037037037056,
         "cloudLevel": 0.015037593984962417,
         "textureID": "natural",
-        "glow": 0.18839463803824938
+        "glow": 0.18839463803824938,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1399.44,
+            "Air Quality Index": 21.67,
+            "Happiness Score": -62.36,
+            "Cost of Living Index": 30.56,
+            "Healthcare Index": 97.33
+        }
     },
     {
         "city": "Fox Glacier",
@@ -714,10 +1110,19 @@
         "steepness": 0.08817029744449095,
         "peakSharpness": 0.9453125,
         "plateauSize": 0.5671652257127772,
-        "creviceDepth": 0.33333333333333337,
+        "creviceDepth": 0.25,
         "cloudLevel": 0.06390977443609024,
         "textureID": "natural",
-        "glow": 0.20388397571277717
+        "glow": 0.20388397571277717,
+        "originalData": {
+            "Decibel Level": 58.75,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 1515.0,
+            "Air Quality Index": 32.5,
+            "Happiness Score": -68.3,
+            "Cost of Living Index": 21.25,
+            "Healthcare Index": 95.5
+        }
     },
     {
         "city": "Franz Josef",
@@ -730,10 +1135,19 @@
         "steepness": 0.10477354187031607,
         "peakSharpness": 0.9565972222222223,
         "plateauSize": 0.5780874178692947,
-        "creviceDepth": 0.04938271604938273,
+        "creviceDepth": 0.037037037037037056,
         "cloudLevel": 0.04761904761904763,
         "textureID": "natural",
-        "glow": 0.16228880675818363
+        "glow": 0.16228880675818363,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1498.33,
+            "Air Quality Index": 28.89,
+            "Happiness Score": -67.3,
+            "Cost of Living Index": 23.89,
+            "Healthcare Index": 96.22
+        }
     },
     {
         "city": "Geraldine",
@@ -746,10 +1160,19 @@
         "steepness": 0.026543080575338628,
         "peakSharpness": 0.9765625,
         "plateauSize": 0.49699297122492075,
-        "creviceDepth": 0.07407407407407406,
+        "creviceDepth": 0.05555555555555554,
         "cloudLevel": 0.018796992481203013,
         "textureID": "natural",
-        "glow": 0.08162838789158745
+        "glow": 0.08162838789158745,
+        "originalData": {
+            "Decibel Level": 55.83,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1785.83,
+            "Air Quality Index": 22.5,
+            "Happiness Score": -84.55,
+            "Cost of Living Index": 24.17,
+            "Healthcare Index": 97.5
+        }
     },
     {
         "city": "Gisborne",
@@ -765,23 +1188,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.5083817317845829
+        "glow": 0.5083817317845829,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 360.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -1.75,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Glenbervie",
         "peakHeight": 0.8511087645195354,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.2571428571428572,
         "steepness": 0.37142857142857144,
         "peakSharpness": 0.9375,
         "plateauSize": 0.8943043822597677,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5505543822597677
+        "glow": 0.5505543822597677,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 470.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -5.6,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Glenorchy",
@@ -797,39 +1238,66 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.015037593984962417,
         "textureID": "natural",
-        "glow": 0.16432007509093038
+        "glow": 0.16432007509093038,
+        "originalData": {
+            "Decibel Level": 54.44,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1470.0,
+            "Air Quality Index": 21.67,
+            "Happiness Score": -65.6,
+            "Cost of Living Index": 24.44,
+            "Healthcare Index": 97.67
+        }
     },
     {
         "city": "Golden Bay",
         "peakHeight": 0.3553326293558606,
         "baseWidth": 0.022727272727272728,
         "roughness": 0.1875,
-        "numPeaks": 2,
+        "numPeaks": 1,
         "snowCap": 0.9360902255639098,
         "treeDensity": 0.6898617511520737,
         "steepness": 0.1664327607875995,
         "peakSharpness": 0.9453125,
         "plateauSize": 0.6503225646779303,
-        "creviceDepth": 0.2222222222222222,
+        "creviceDepth": 0.16666666666666666,
         "cloudLevel": 0.06390977443609024,
         "textureID": "natural",
-        "glow": 0.27141631467793026
+        "glow": 0.27141631467793026,
+        "originalData": {
+            "Decibel Level": 57.5,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1252.5,
+            "Air Quality Index": 32.5,
+            "Happiness Score": -52.55,
+            "Cost of Living Index": 22.5,
+            "Healthcare Index": 95.5
+        }
     },
     {
         "city": "Gore",
         "peakHeight": 0.5469904963041182,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.5225806451612903,
         "steepness": 0.23870967741935484,
         "peakSharpness": 0.9375,
         "plateauSize": 0.7422452481520592,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.3984952481520591
+        "glow": 0.3984952481520591,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 950.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -34.4,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Greymouth",
@@ -845,7 +1313,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.028340080971659933,
         "textureID": "natural",
-        "glow": 0.14949536999431398
+        "glow": 0.14949536999431398,
+        "originalData": {
+            "Decibel Level": 51.92,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1417.31,
+            "Air Quality Index": 24.62,
+            "Happiness Score": -62.44,
+            "Cost of Living Index": 21.92,
+            "Healthcare Index": 97.08
+        }
     },
     {
         "city": "Haast",
@@ -858,26 +1335,44 @@
         "steepness": 0.10313969184936926,
         "peakSharpness": 0.9635416666666667,
         "plateauSize": 0.5970471444913763,
-        "creviceDepth": 0.04938271604938273,
+        "creviceDepth": 0.037037037037037056,
         "cloudLevel": 0.03759398496240603,
         "textureID": "natural",
-        "glow": 0.13610964449137625
+        "glow": 0.13610964449137625,
+        "originalData": {
+            "Decibel Level": 51.67,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1449.44,
+            "Air Quality Index": 26.67,
+            "Happiness Score": -64.37,
+            "Cost of Living Index": 20.56,
+            "Healthcare Index": 96.67
+        }
     },
     {
         "city": "Hamilton",
         "peakHeight": 0.8970432946145723,
         "baseWidth": 0.20454545454545456,
         "roughness": 0.1875,
-        "numPeaks": 2,
+        "numPeaks": 1,
         "snowCap": 0.9360902255639098,
         "treeDensity": 0.18110599078341014,
         "steepness": 0.5117197318810222,
         "peakSharpness": 0.9453125,
         "plateauSize": 0.9211778973072862,
-        "creviceDepth": 0.2222222222222222,
+        "creviceDepth": 0.16666666666666666,
         "cloudLevel": 0.06390977443609024,
         "textureID": "natural",
-        "glow": 0.5422716473072862
+        "glow": 0.5422716473072862,
+        "originalData": {
+            "Decibel Level": 57.5,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 332.5,
+            "Air Quality Index": 32.5,
+            "Happiness Score": -1.25,
+            "Cost of Living Index": 42.5,
+            "Healthcare Index": 95.5
+        }
     },
     {
         "city": "Hanmer Springs",
@@ -890,10 +1385,19 @@
         "steepness": 0.07119291998324252,
         "peakSharpness": 0.953125,
         "plateauSize": 0.5386005147835269,
-        "creviceDepth": 0.05555555555555554,
+        "creviceDepth": 0.04166666666666667,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.12453801478352686
+        "glow": 0.12453801478352686,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1617.5,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -74.45,
+            "Cost of Living Index": 23.75,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Hanoi",
@@ -909,23 +1413,41 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.9097744360902256,
         "textureID": "industrial",
-        "glow": 0.908460929250264
+        "glow": 0.908460929250264,
+        "originalData": {
+            "Decibel Level": 85.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 15.0,
+            "Air Quality Index": 220.0,
+            "Happiness Score": 3.0,
+            "Cost of Living Index": 35.0,
+            "Healthcare Index": 40.0
+        }
     },
     {
         "city": "Harihari",
         "peakHeight": 0.6737064413938754,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.41198156682027653,
         "steepness": 0.29400921658986173,
         "peakSharpness": 0.9375,
         "plateauSize": 0.8056032206969377,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.4618532206969377
+        "glow": 0.4618532206969377,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 750.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -22.4,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Hastings",
@@ -941,23 +1463,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.4516235480464625
+        "glow": 0.4516235480464625,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 585.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -12.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Havana",
         "peakHeight": 0.9736008447729673,
         "baseWidth": 0.2727272727272727,
         "roughness": 0.375,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.4736842105263157,
         "treeDensity": 0.016589861751152075,
         "steepness": 0.6280687054880603,
         "peakSharpness": 0.390625,
         "plateauSize": 0.6821129223864837,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.5263157894736843,
         "textureID": "natural",
-        "glow": 0.6743004223864837
+        "glow": 0.6743004223864837,
+        "originalData": {
+            "Decibel Level": 65.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 35.0,
+            "Air Quality Index": 135.0,
+            "Happiness Score": 6.0,
+            "Cost of Living Index": 50.0,
+            "Healthcare Index": 60.0
+        }
     },
     {
         "city": "Havelock",
@@ -973,7 +1513,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.0855049781264142
+        "glow": 0.0855049781264142,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1740.71,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -81.84,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Helsinki",
@@ -989,7 +1538,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5619720168954594
+        "glow": 0.5619720168954594,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 90.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 8.4,
+            "Cost of Living Index": 90.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Herekino",
@@ -1005,7 +1563,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5054778247096092
+        "glow": 0.5054778247096092,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 415.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -2.3,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Hikurangi",
@@ -1021,7 +1588,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.48963833157338965
+        "glow": 0.48963833157338965,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 465.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -5.3,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Ho Chi Minh City",
@@ -1037,7 +1613,16 @@
         "creviceDepth": 1.0,
         "cloudLevel": 1.0,
         "textureID": "industrial",
-        "glow": 0.9699049630411827
+        "glow": 0.9699049630411827,
+        "originalData": {
+            "Decibel Level": 90.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 5.0,
+            "Air Quality Index": 240.0,
+            "Happiness Score": 2.8,
+            "Cost of Living Index": 40.0,
+            "Healthcare Index": 50.0
+        }
     },
     {
         "city": "Hokitika",
@@ -1050,26 +1635,44 @@
         "steepness": 0.11676441837732161,
         "peakSharpness": 0.9765625,
         "plateauSize": 0.6047015245512143,
-        "creviceDepth": 0.03703703703703703,
+        "creviceDepth": 0.02777777777777777,
         "cloudLevel": 0.018796992481203013,
         "textureID": "natural",
-        "glow": 0.1685036078845476
+        "glow": 0.1685036078845476,
+        "originalData": {
+            "Decibel Level": 54.17,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1445.83,
+            "Air Quality Index": 22.5,
+            "Happiness Score": -64.15,
+            "Cost of Living Index": 23.33,
+            "Healthcare Index": 97.5
+        }
     },
     {
         "city": "Hong Kong",
         "peakHeight": 0.9683210137275607,
         "baseWidth": 1.0,
         "roughness": 0.625,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.631578947368421,
         "treeDensity": 0.011059907834101382,
         "steepness": 0.9944700460829493,
         "peakSharpness": 0.859375,
         "plateauSize": 0.9138480068637804,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.368421052631579,
         "textureID": "industrial",
-        "glow": 0.7966605068637804
+        "glow": 0.7966605068637804,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 25.0,
+            "Air Quality Index": 100.0,
+            "Happiness Score": 5.5,
+            "Cost of Living Index": 130.0,
+            "Healthcare Index": 90.0
+        }
     },
     {
         "city": "Horeke",
@@ -1085,7 +1688,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5308210137275606
+        "glow": 0.5308210137275606,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 325.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 2.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Invercargill",
@@ -1098,10 +1710,19 @@
         "steepness": 0.08066348973607038,
         "peakSharpness": 0.943359375,
         "plateauSize": 0.560842834279303,
-        "creviceDepth": 0.33333333333333337,
+        "creviceDepth": 0.25,
         "cloudLevel": 0.06672932330827068,
         "textureID": "natural",
-        "glow": 0.190725646779303
+        "glow": 0.190725646779303,
+        "originalData": {
+            "Decibel Level": 58.12,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 1531.88,
+            "Air Quality Index": 33.12,
+            "Happiness Score": -69.31,
+            "Cost of Living Index": 20.62,
+            "Healthcare Index": 95.38
+        }
     },
     {
         "city": "Islamabad",
@@ -1117,23 +1738,41 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.8421052631578947,
         "textureID": "industrial",
-        "glow": 0.8486008447729673
+        "glow": 0.8486008447729673,
+        "originalData": {
+            "Decibel Level": 80.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 20.0,
+            "Air Quality Index": 205.0,
+            "Happiness Score": 3.5,
+            "Cost of Living Index": 40.0,
+            "Healthcare Index": 55.0
+        }
     },
     {
         "city": "Istanbul",
         "peakHeight": 0.9820485744456177,
         "baseWidth": 0.5,
         "roughness": 0.625,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.6992481203007519,
         "treeDensity": 0.022119815668202765,
         "steepness": 0.7389400921658986,
         "peakSharpness": 0.546875,
         "plateauSize": 0.7644617872228088,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.30075187969924816,
         "textureID": "industrial",
-        "glow": 0.8035242872228088
+        "glow": 0.8035242872228088,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 45.0,
+            "Air Quality Index": 85.0,
+            "Happiness Score": 6.8,
+            "Cost of Living Index": 75.0,
+            "Healthcare Index": 70.0
+        }
     },
     {
         "city": "Jackson Bay",
@@ -1149,7 +1788,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.015977443609022562,
         "textureID": "natural",
-        "glow": 0.1402867608236536
+        "glow": 0.1402867608236536,
+        "originalData": {
+            "Decibel Level": 54.38,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1543.12,
+            "Air Quality Index": 21.88,
+            "Happiness Score": -69.99,
+            "Cost of Living Index": 24.38,
+            "Healthcare Index": 97.62
+        }
     },
     {
         "city": "Jakarta",
@@ -1165,7 +1813,16 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.8195488721804511,
         "textureID": "industrial",
-        "glow": 0.8798508447729673
+        "glow": 0.8798508447729673,
+        "originalData": {
+            "Decibel Level": 82.5,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 12.5,
+            "Air Quality Index": 200.0,
+            "Happiness Score": 3.5,
+            "Cost of Living Index": 37.5,
+            "Healthcare Index": 47.5
+        }
     },
     {
         "city": "Kaiapoi",
@@ -1181,7 +1838,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.026852846401718585,
         "textureID": "natural",
-        "glow": 0.03283866344848385
+        "glow": 0.03283866344848385,
+        "originalData": {
+            "Decibel Level": 50.71,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1737.86,
+            "Air Quality Index": 24.29,
+            "Happiness Score": -81.67,
+            "Cost of Living Index": 20.71,
+            "Healthcare Index": 97.14
+        }
     },
     {
         "city": "Kaikohe",
@@ -1197,7 +1863,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5387407602956705
+        "glow": 0.5387407602956705,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 295.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 4.0,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Kaikoura",
@@ -1210,26 +1885,44 @@
         "steepness": 0.03173140223831461,
         "peakSharpness": 0.9642857142857142,
         "plateauSize": 0.5184982651983707,
-        "creviceDepth": 0.06349206349206352,
+        "creviceDepth": 0.0476190476190476,
         "cloudLevel": 0.036519871106337275,
         "textureID": "natural",
-        "glow": 0.05421255091265647
+        "glow": 0.05421255091265647,
+        "originalData": {
+            "Decibel Level": 51.43,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1698.57,
+            "Air Quality Index": 26.43,
+            "Happiness Score": -79.31,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 96.71
+        }
     },
     {
         "city": "Kaitaia",
         "peakHeight": 0.9545934530095037,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.1576036866359447,
         "steepness": 0.42119815668202765,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9460467265047519,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.6022967265047519
+        "glow": 0.6022967265047519,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 290.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 4.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Karachi",
@@ -1245,7 +1938,16 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.7744360902255639,
         "textureID": "industrial",
-        "glow": 0.908460929250264
+        "glow": 0.908460929250264,
+        "originalData": {
+            "Decibel Level": 85.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 10.0,
+            "Air Quality Index": 190.0,
+            "Happiness Score": 3.0,
+            "Cost of Living Index": 40.0,
+            "Healthcare Index": 45.0
+        }
     },
     {
         "city": "Karamea",
@@ -1261,23 +1963,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.03571428571428572,
         "textureID": "natural",
-        "glow": 0.2732477560718056
+        "glow": 0.2732477560718056,
+        "originalData": {
+            "Decibel Level": 53.75,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1098.75,
+            "Air Quality Index": 26.25,
+            "Happiness Score": -43.33,
+            "Cost of Living Index": 23.75,
+            "Healthcare Index": 96.75
+        }
     },
     {
         "city": "Kathmandu",
         "peakHeight": 0.9577613516367476,
         "baseWidth": 0.13636363636363635,
         "roughness": 0.625,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.13533834586466165,
         "treeDensity": 0.011059907834101382,
         "steepness": 0.5626518642647675,
         "peakSharpness": 0.234375,
         "plateauSize": 0.5960681758183738,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.8646616541353384,
         "textureID": "industrial",
-        "glow": 0.7913806758183738
+        "glow": 0.7913806758183738,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 25.0,
+            "Air Quality Index": 210.0,
+            "Happiness Score": 4.5,
+            "Cost of Living Index": 35.0,
+            "Healthcare Index": 50.0
+        }
     },
     {
         "city": "Kawakawa",
@@ -1293,23 +2013,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.4350580781414995
+        "glow": 0.4350580781414995,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 440.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -3.8,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Kawerau",
         "peakHeight": 0.9947201689545935,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.08018433179723503,
         "steepness": 0.4599078341013825,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9661100844772967,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.6223600844772967
+        "glow": 0.6223600844772967,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 150.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 8.0,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Kerikeri",
@@ -1325,23 +2063,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.4751847940865892
+        "glow": 0.4751847940865892,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 300.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": 3.8,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Kingston",
         "peakHeight": 0.21832101372756071,
         "baseWidth": 0.056818181818181816,
         "roughness": 0.28125,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.8796992481203008,
         "treeDensity": 0.7914746543778802,
         "steepness": 0.1326717637201508,
         "peakSharpness": 0.89453125,
         "plateauSize": 0.5564261318637803,
-        "creviceDepth": 0.4583333333333333,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.12030075187969926,
         "textureID": "natural",
-        "glow": 0.24978550686378037
+        "glow": 0.24978550686378037,
+        "originalData": {
+            "Decibel Level": 61.25,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 1436.25,
+            "Air Quality Index": 45.0,
+            "Happiness Score": -65.52,
+            "Cost of Living Index": 26.25,
+            "Healthcare Index": 92.25
+        }
     },
     {
         "city": "Kohukohu",
@@ -1357,23 +2113,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.4699049630411827
+        "glow": 0.4699049630411827,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 320.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": 2.8,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Kuala Lumpur",
         "peakHeight": 0.9651531151003168,
         "baseWidth": 0.3181818181818182,
         "roughness": 0.625,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.3609022556390977,
         "treeDensity": 0.011059907834101382,
         "steepness": 0.6535609551738584,
         "peakSharpness": 0.390625,
         "plateauSize": 0.6778890575501584,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.6390977443609023,
         "textureID": "industrial",
-        "glow": 0.7950765575501584
+        "glow": 0.7950765575501584,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 25.0,
+            "Air Quality Index": 160.0,
+            "Happiness Score": 5.2,
+            "Cost of Living Index": 55.0,
+            "Healthcare Index": 60.0
+        }
     },
     {
         "city": "Kumara",
@@ -1389,7 +2163,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.35902851108764516
+        "glow": 0.35902851108764516,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 680.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -18.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Langs Beach",
@@ -1405,23 +2188,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.47063093980992604
+        "glow": 0.47063093980992604,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 525.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -8.9,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Leigh",
         "peakHeight": 0.9757127771911299,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.13548387096774195,
         "steepness": 0.432258064516129,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9566063885955649,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.6128563885955649
+        "glow": 0.6128563885955649,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 250.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 6.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Lima",
@@ -1437,7 +2238,16 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.368421052631579,
         "textureID": "industrial",
-        "glow": 0.7897967265047519
+        "glow": 0.7897967265047519,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 25.0,
+            "Air Quality Index": 100.0,
+            "Happiness Score": 4.2,
+            "Cost of Living Index": 55.0,
+            "Healthcare Index": 60.0
+        }
     },
     {
         "city": "Lisbon",
@@ -1453,39 +2263,66 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.09774436090225565,
         "textureID": "natural",
-        "glow": 0.5588041182682154
+        "glow": 0.5588041182682154,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 70.0,
+            "Air Quality Index": 40.0,
+            "Happiness Score": 7.8,
+            "Cost of Living Index": 75.0,
+            "Healthcare Index": 82.0
+        }
     },
     {
         "city": "London",
         "peakHeight": 0.986272439281943,
         "baseWidth": 0.8181818181818182,
         "roughness": 0.125,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.8120300751879699,
         "treeDensity": 0.024884792626728113,
         "steepness": 0.896648512777545,
         "peakSharpness": 0.78125,
         "plateauSize": 0.8837612196409714,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.1879699248120301,
         "textureID": "industrial",
-        "glow": 0.5556362196409714
+        "glow": 0.5556362196409714,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 50.0,
+            "Air Quality Index": 60.0,
+            "Happiness Score": 7.2,
+            "Cost of Living Index": 110.0,
+            "Healthcare Index": 85.0
+        }
     },
     {
         "city": "Los Angeles",
         "peakHeight": 0.9820485744456177,
         "baseWidth": 0.6363636363636364,
         "roughness": 0.375,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.8571428571428571,
         "treeDensity": 0.01935483870967742,
         "steepness": 0.8085043988269794,
         "peakSharpness": 0.625,
         "plateauSize": 0.8035242872228088,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.14285714285714288,
         "textureID": "natural",
-        "glow": 0.6785242872228088
+        "glow": 0.6785242872228088,
+        "originalData": {
+            "Decibel Level": 65.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 40.0,
+            "Air Quality Index": 50.0,
+            "Happiness Score": 6.8,
+            "Cost of Living Index": 90.0,
+            "Healthcare Index": 75.0
+        }
     },
     {
         "city": "Lower Hutt",
@@ -1501,7 +2338,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5609160506863781
+        "glow": 0.5609160506863781,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 135.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 8.2,
+            "Cost of Living Index": 35.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Lumsden",
@@ -1517,7 +2363,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.33757919746568105
+        "glow": 0.33757919746568105,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 945.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -34.1,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Lyell",
@@ -1533,7 +2388,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.3724260823653643
+        "glow": 0.3724260823653643,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 835.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -27.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Manapouri",
@@ -1546,26 +2410,44 @@
         "steepness": 0.0815615835777126,
         "peakSharpness": 0.9765625,
         "plateauSize": 0.5621988846356916,
-        "creviceDepth": 0.05555555555555554,
+        "creviceDepth": 0.04166666666666667,
         "cloudLevel": 0.018796992481203013,
         "textureID": "natural",
-        "glow": 0.1364176346356916
+        "glow": 0.1364176346356916,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1580.0,
+            "Air Quality Index": 22.5,
+            "Happiness Score": -72.2,
+            "Cost of Living Index": 23.75,
+            "Healthcare Index": 97.5
+        }
     },
     {
         "city": "Mangawhai",
         "peakHeight": 0.8922914466737064,
         "baseWidth": 0.0,
         "roughness": 0.125,
-        "numPeaks": 2,
+        "numPeaks": 1,
         "snowCap": 0.9473684210526315,
         "treeDensity": 0.21566820276497697,
         "steepness": 0.3921658986175115,
         "peakSharpness": 0.953125,
         "plateauSize": 0.9227082233368532,
-        "creviceDepth": 0.2222222222222222,
+        "creviceDepth": 0.16666666666666666,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5086457233368532
+        "glow": 0.5086457233368532,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 395.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -1.7,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Mangonui",
@@ -1581,7 +2463,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5149815205913411
+        "glow": 0.5149815205913411,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 385.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -0.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Manila",
@@ -1597,7 +2488,16 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.5939849624060151,
         "textureID": "industrial",
-        "glow": 0.8538806758183738
+        "glow": 0.8538806758183738,
+        "originalData": {
+            "Decibel Level": 80.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 20.0,
+            "Air Quality Index": 150.0,
+            "Happiness Score": 4.5,
+            "Cost of Living Index": 45.0,
+            "Healthcare Index": 55.0
+        }
     },
     {
         "city": "Maromaku",
@@ -1613,7 +2513,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.4928062302006336
+        "glow": 0.4928062302006336,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 455.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -4.7,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Marsden Point",
@@ -1629,7 +2538,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.4769667370644139
+        "glow": 0.4769667370644139,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 505.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -7.7,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Matakana",
@@ -1645,23 +2563,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.551940337909187
+        "glow": 0.551940337909187,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 245.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 6.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Matamata",
         "peakHeight": 0.9904963041182682,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.1023041474654378,
         "steepness": 0.4488479262672811,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9639981520591341,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.6202481520591341
+        "glow": 0.6202481520591341,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 190.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 7.6,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Matapouri",
@@ -1677,23 +2613,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.4593453009503696
+        "glow": 0.4593453009503696,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 360.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": 0.8,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Matawaia",
         "peakHeight": 0.863780359028511,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.24608294930875577,
         "steepness": 0.37695852534562213,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9006401795142556,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5568901795142556
+        "glow": 0.5568901795142556,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 450.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -4.4,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Maungatapere",
@@ -1709,7 +2663,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.42238648363252373
+        "glow": 0.42238648363252373,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 480.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -6.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Melbourne",
@@ -1725,7 +2688,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.12030075187969926,
         "textureID": "natural",
-        "glow": 0.5593321013727561
+        "glow": 0.5593321013727561,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 60.0,
+            "Air Quality Index": 45.0,
+            "Happiness Score": 7.9,
+            "Cost of Living Index": 115.0,
+            "Healthcare Index": 90.0
+        }
     },
     {
         "city": "Mexico City",
@@ -1741,7 +2713,16 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.32330827067669177,
         "textureID": "industrial",
-        "glow": 0.7325765575501584
+        "glow": 0.7325765575501584,
+        "originalData": {
+            "Decibel Level": 70.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 35.0,
+            "Air Quality Index": 90.0,
+            "Happiness Score": 5.2,
+            "Cost of Living Index": 65.0,
+            "Healthcare Index": 60.0
+        }
     },
     {
         "city": "Milford Sound",
@@ -1757,7 +2738,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.032581453634085225,
         "textureID": "natural",
-        "glow": 0.12590197113692347
+        "glow": 0.12590197113692347,
+        "originalData": {
+            "Decibel Level": 51.67,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1481.67,
+            "Air Quality Index": 25.56,
+            "Happiness Score": -66.3,
+            "Cost of Living Index": 21.67,
+            "Healthcare Index": 96.89
+        }
     },
     {
         "city": "Milton",
@@ -1773,7 +2763,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.33124340021119325
+        "glow": 0.33124340021119325,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 965.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -35.3,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Moeraki",
@@ -1786,10 +2785,19 @@
         "steepness": 0.03399066371416601,
         "peakSharpness": 0.9397321428571428,
         "plateauSize": 0.5050900871172121,
-        "creviceDepth": 0.38095238095238093,
+        "creviceDepth": 0.2857142857142857,
         "cloudLevel": 0.0719656283566058,
         "textureID": "natural",
-        "glow": 0.15129544426006927
+        "glow": 0.15129544426006927,
+        "originalData": {
+            "Decibel Level": 59.29,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 1702.14,
+            "Air Quality Index": 34.29,
+            "Happiness Score": -79.53,
+            "Cost of Living Index": 20.71,
+            "Healthcare Index": 95.14
+        }
     },
     {
         "city": "Moerewa",
@@ -1805,23 +2813,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.4959741288278775
+        "glow": 0.4959741288278775,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 445.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -4.1,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Moscow",
         "peakHeight": 0.9714889123548046,
         "baseWidth": 0.45454545454545453,
         "roughness": 0.25,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.7218045112781954,
         "treeDensity": 0.013824884792626729,
         "steepness": 0.7203602848764139,
         "peakSharpness": 0.703125,
         "plateauSize": 0.8373069561774023,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.27819548872180455,
         "textureID": "industrial",
-        "glow": 0.6107444561774023
+        "glow": 0.6107444561774023,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 30.0,
+            "Air Quality Index": 80.0,
+            "Happiness Score": 5.8,
+            "Cost of Living Index": 70.0,
+            "Healthcare Index": 80.0
+        }
     },
     {
         "city": "Mossburn",
@@ -1837,7 +2863,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.27666314677930304
+        "glow": 0.27666314677930304,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 940.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -33.8,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Motueka",
@@ -1853,7 +2888,16 @@
         "creviceDepth": 1.5419764230904953e-17,
         "cloudLevel": 0.03759398496240603,
         "textureID": "natural",
-        "glow": 0.3629223864836325
+        "glow": 0.3629223864836325,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 865.0,
+            "Air Quality Index": 26.67,
+            "Happiness Score": -29.3,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.67
+        }
     },
     {
         "city": "Mount Aspiring National Park",
@@ -1869,7 +2913,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.32490760295670534
+        "glow": 0.32490760295670534,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 985.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -36.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Mumbai",
@@ -1885,7 +2938,16 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.27819548872180455,
         "textureID": "industrial",
-        "glow": 0.8538806758183738
+        "glow": 0.8538806758183738,
+        "originalData": {
+            "Decibel Level": 80.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 15.0,
+            "Air Quality Index": 80.0,
+            "Happiness Score": 4.5,
+            "Cost of Living Index": 70.0,
+            "Healthcare Index": 60.0
+        }
     },
     {
         "city": "Murchison",
@@ -1898,10 +2960,19 @@
         "steepness": 0.08786342689568497,
         "peakSharpness": 0.9437500000000001,
         "plateauSize": 0.5673343453009503,
-        "creviceDepth": 0.3555555555555556,
+        "creviceDepth": 0.26666666666666666,
         "cloudLevel": 0.0661654135338346,
         "textureID": "natural",
-        "glow": 0.20795934530095028
+        "glow": 0.20795934530095028,
+        "originalData": {
+            "Decibel Level": 59.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 1512.0,
+            "Air Quality Index": 33.0,
+            "Happiness Score": -68.12,
+            "Cost of Living Index": 21.0,
+            "Healthcare Index": 95.4
+        }
     },
     {
         "city": "Napier",
@@ -1917,7 +2988,16 @@
         "creviceDepth": 1.5419764230904953e-17,
         "cloudLevel": 0.0,
         "textureID": "natural",
-        "glow": 0.4842265047518479
+        "glow": 0.4842265047518479,
+        "originalData": {
+            "Decibel Level": 51.67,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 275.0,
+            "Air Quality Index": 18.33,
+            "Happiness Score": 1.57,
+            "Cost of Living Index": 38.33,
+            "Healthcare Index": 97.33
+        }
     },
     {
         "city": "Nelson",
@@ -1933,7 +3013,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.016541353383458652,
         "textureID": "natural",
-        "glow": 0.313727560718057
+        "glow": 0.313727560718057,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 796.0,
+            "Air Quality Index": 22.0,
+            "Happiness Score": -26.78,
+            "Cost of Living Index": 30.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "New Delhi",
@@ -1949,39 +3038,66 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.7293233082706767,
         "textureID": "industrial",
-        "glow": 0.9111008447729673
+        "glow": 0.9111008447729673,
+        "originalData": {
+            "Decibel Level": 85.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 10.0,
+            "Air Quality Index": 180.0,
+            "Happiness Score": 3.5,
+            "Cost of Living Index": 60.0,
+            "Healthcare Index": 55.0
+        }
     },
     {
         "city": "New Plymouth",
         "peakHeight": 0.9957761351636747,
         "baseWidth": 0.18181818181818182,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.06912442396313365,
         "steepness": 0.5563468789275241,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9666380675818373,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.6228880675818373
+        "glow": 0.6228880675818373,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 130.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 8.1,
+            "Cost of Living Index": 40.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "New York",
         "peakHeight": 0.9788806758183738,
         "baseWidth": 0.7272727272727273,
         "roughness": 0.5,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.9022556390977443,
         "treeDensity": 0.016589861751152075,
         "steepness": 0.8553414327607876,
         "peakSharpness": 0.703125,
         "plateauSize": 0.841002837909187,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.09774436090225565,
         "textureID": "industrial",
-        "glow": 0.739440337909187
+        "glow": 0.739440337909187,
+        "originalData": {
+            "Decibel Level": 70.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 35.0,
+            "Air Quality Index": 40.0,
+            "Happiness Score": 6.5,
+            "Cost of Living Index": 100.0,
+            "Healthcare Index": 80.0
+        }
     },
     {
         "city": "Oamaru",
@@ -1997,7 +3113,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.049409237379162196,
         "textureID": "natural",
-        "glow": 0.0872114949464474
+        "glow": 0.0872114949464474,
+        "originalData": {
+            "Decibel Level": 54.29,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1707.14,
+            "Air Quality Index": 29.29,
+            "Happiness Score": -79.83,
+            "Cost of Living Index": 24.29,
+            "Healthcare Index": 96.14
+        }
     },
     {
         "city": "Oban",
@@ -2013,23 +3138,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.013963480128893662,
         "textureID": "natural",
-        "glow": 0.10632259767687433
+        "glow": 0.10632259767687433,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1675.0,
+            "Air Quality Index": 21.43,
+            "Happiness Score": -77.9,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 97.71
+        }
     },
     {
         "city": "Ohaeawai",
         "peakHeight": 0.8764519535374867,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.2350230414746544,
         "steepness": 0.3824884792626728,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9069759767687433,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5632259767687433
+        "glow": 0.5632259767687433,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 430.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -3.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Okaihau",
@@ -2045,7 +3188,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5023099260823654
+        "glow": 0.5023099260823654,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 425.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -2.9,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Omapere",
@@ -2061,23 +3213,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5281810982048574
+        "glow": 0.5281810982048574,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 335.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 2.0,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "One Tree Point",
         "peakHeight": 0.8257655755015839,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.27926267281105993,
         "steepness": 0.36036866359447006,
         "peakSharpness": 0.9375,
         "plateauSize": 0.8816327877507919,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5378827877507919
+        "glow": 0.5378827877507919,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 510.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -8.0,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Opononi",
@@ -2093,7 +3263,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.4646251319957761
+        "glow": 0.4646251319957761,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 340.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": 1.8,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Opua",
@@ -2109,7 +3288,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.533460929250264
+        "glow": 0.533460929250264,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 315.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 3.0,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Orewa",
@@ -2125,7 +3313,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.5097016895459345
+        "glow": 0.5097016895459345,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 390.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -1.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Oslo",
@@ -2141,7 +3338,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.5
+        "glow": 0.5,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 85.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": 8.5,
+            "Cost of Living Index": 115.0,
+            "Healthcare Index": 99.0
+        }
     },
     {
         "city": "Otago Peninsula",
@@ -2157,23 +3363,41 @@
         "creviceDepth": 1.5419764230904953e-17,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.0
+        "glow": 0.0,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1813.33,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -86.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Otautau",
         "peakHeight": 0.5723336853220696,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.5004608294930876,
         "steepness": 0.24976958525345622,
         "peakSharpness": 0.9375,
         "plateauSize": 0.7549168426610349,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.4111668426610348
+        "glow": 0.4111668426610348,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 910.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -32.0,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Otorohanga",
@@ -2189,7 +3413,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5598600844772967
+        "glow": 0.5598600844772967,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 175.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 8.0,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Paeroa",
@@ -2205,7 +3438,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.4963041182682154
+        "glow": 0.4963041182682154,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 200.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": 7.8,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Paihia",
@@ -2221,71 +3463,116 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5361008447729673
+        "glow": 0.5361008447729673,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 305.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 3.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Palmerston North",
         "peakHeight": 0.8875395987328405,
         "baseWidth": 0.11363636363636363,
         "roughness": 0.1875,
-        "numPeaks": 2,
+        "numPeaks": 1,
         "snowCap": 0.9586466165413534,
         "treeDensity": 0.1949308755760369,
         "steepness": 0.4593527440301634,
         "peakSharpness": 0.9609375,
         "plateauSize": 0.9242385493664202,
-        "creviceDepth": 0.2222222222222222,
+        "creviceDepth": 0.16666666666666666,
         "cloudLevel": 0.04135338345864662,
         "textureID": "natural",
-        "glow": 0.5375197993664202
+        "glow": 0.5375197993664202,
+        "originalData": {
+            "Decibel Level": 57.5,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 357.5,
+            "Air Quality Index": 27.5,
+            "Happiness Score": -2.15,
+            "Cost of Living Index": 32.5,
+            "Healthcare Index": 96.5
+        }
     },
     {
         "city": "Panama City",
         "peakHeight": 0.9714889123548046,
         "baseWidth": 0.36363636363636365,
         "roughness": 0.5,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.518796992481203,
         "treeDensity": 0.013824884792626729,
         "steepness": 0.6749057394218685,
         "peakSharpness": 0.46875,
         "plateauSize": 0.7201194561774023,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.481203007518797,
         "textureID": "natural",
-        "glow": 0.7357444561774023
+        "glow": 0.7357444561774023,
+        "originalData": {
+            "Decibel Level": 70.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 30.0,
+            "Air Quality Index": 125.0,
+            "Happiness Score": 5.8,
+            "Cost of Living Index": 60.0,
+            "Healthcare Index": 65.0
+        }
     },
     {
         "city": "Paris",
         "peakHeight": 0.9831045406546991,
         "baseWidth": 0.6818181818181818,
         "roughness": 0.25,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.7894736842105263,
         "treeDensity": 0.022119815668202765,
         "steepness": 0.8298491830749894,
         "peakSharpness": 0.703125,
         "plateauSize": 0.8431147703273496,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.21052631578947373,
         "textureID": "industrial",
-        "glow": 0.6165522703273496
+        "glow": 0.6165522703273496,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 45.0,
+            "Air Quality Index": 65.0,
+            "Happiness Score": 6.9,
+            "Cost of Living Index": 95.0,
+            "Healthcare Index": 80.0
+        }
     },
     {
         "city": "Parua Bay",
         "peakHeight": 0.8384371700105596,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.26820276497695855,
         "steepness": 0.36589861751152075,
         "peakSharpness": 0.9375,
         "plateauSize": 0.8879685850052799,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5442185850052799
+        "glow": 0.5442185850052799,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 490.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -6.8,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Pataua",
@@ -2301,7 +3588,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.4801346356916579
+        "glow": 0.4801346356916579,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 495.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -7.1,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Perth",
@@ -2317,7 +3613,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.14285714285714288,
         "textureID": "natural",
-        "glow": 0.6207761351636748
+        "glow": 0.6207761351636748,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 60.0,
+            "Air Quality Index": 50.0,
+            "Happiness Score": 7.7,
+            "Cost of Living Index": 110.0,
+            "Healthcare Index": 89.0
+        }
     },
     {
         "city": "Phnom Penh",
@@ -2333,39 +3638,66 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.9323308270676691,
         "textureID": "industrial",
-        "glow": 0.8433210137275606
+        "glow": 0.8433210137275606,
+        "originalData": {
+            "Decibel Level": 80.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 10.0,
+            "Air Quality Index": 225.0,
+            "Happiness Score": 2.5,
+            "Cost of Living Index": 30.0,
+            "Healthcare Index": 35.0
+        }
     },
     {
         "city": "Picton",
         "peakHeight": 0.049177854880072425,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.9570770243581305,
         "steepness": 0.021461487820934766,
         "peakSharpness": 0.9375,
         "plateauSize": 0.4933389274400362,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.1495889274400362
+        "glow": 0.1495889274400362,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 1735.71,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -81.54,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Prague",
         "peakHeight": 0.9873284054910243,
         "baseWidth": 0.5454545454545454,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.7894736842105263,
         "treeDensity": 0.024884792626728113,
         "steepness": 0.7602848764139086,
         "peakSharpness": 0.78125,
         "plateauSize": 0.8842892027455121,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.21052631578947373,
         "textureID": "natural",
-        "glow": 0.6186642027455121
+        "glow": 0.6186642027455121,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 50.0,
+            "Air Quality Index": 65.0,
+            "Happiness Score": 7.3,
+            "Cost of Living Index": 80.0,
+            "Healthcare Index": 85.0
+        }
     },
     {
         "city": "Puhipuhi",
@@ -2381,7 +3713,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.4287222808870116
+        "glow": 0.4287222808870116,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 460.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -5.0,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Pukenui",
@@ -2397,23 +3738,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5086457233368532
+        "glow": 0.5086457233368532,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 405.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -1.7,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Punakaiki",
         "peakHeight": 0.6610348468848997,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.4230414746543779,
         "steepness": 0.28847926267281104,
         "peakSharpness": 0.9375,
         "plateauSize": 0.7992674234424498,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.45551742344244983
+        "glow": 0.45551742344244983,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 770.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -23.6,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Punguru",
@@ -2429,7 +3788,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.44139387539598735
+        "glow": 0.44139387539598735,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 420.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -2.6,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Putaruru",
@@ -2445,7 +3813,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5603880675818373
+        "glow": 0.5603880675818373,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 155.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 8.1,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Queenstown",
@@ -2458,26 +3835,44 @@
         "steepness": 0.16581273565144533,
         "peakSharpness": 0.9578125,
         "plateauSize": 0.630542997624076,
-        "creviceDepth": 0.08888888888888888,
+        "creviceDepth": 0.06666666666666667,
         "cloudLevel": 0.03909774436090226,
         "textureID": "natural",
-        "glow": 0.19538674762407598
+        "glow": 0.19538674762407598,
+        "originalData": {
+            "Decibel Level": 53.5,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1320.5,
+            "Air Quality Index": 27.0,
+            "Happiness Score": -57.48,
+            "Cost of Living Index": 26.5,
+            "Healthcare Index": 96.3
+        }
     },
     {
         "city": "Quito",
         "peakHeight": 0.9577613516367476,
         "baseWidth": 0.3181818181818182,
         "roughness": 0.375,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.5413533834586466,
         "treeDensity": 0.011059907834101382,
         "steepness": 0.6535609551738584,
         "peakSharpness": 0.390625,
         "plateauSize": 0.6741931758183738,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.4586466165413534,
         "textureID": "industrial",
-        "glow": 0.6663806758183738
+        "glow": 0.6663806758183738,
+        "originalData": {
+            "Decibel Level": 65.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 25.0,
+            "Air Quality Index": 120.0,
+            "Happiness Score": 4.5,
+            "Cost of Living Index": 55.0,
+            "Healthcare Index": 60.0
+        }
     },
     {
         "city": "Rangiora",
@@ -2490,10 +3885,19 @@
         "steepness": 0.03896702375965043,
         "peakSharpness": 0.9776785714285714,
         "plateauSize": 0.5111654284205762,
-        "creviceDepth": 0.06349206349206352,
+        "creviceDepth": 0.0476190476190476,
         "cloudLevel": 0.017185821697099896,
         "textureID": "natural",
-        "glow": 0.09375471413486197
+        "glow": 0.09375471413486197,
+        "originalData": {
+            "Decibel Level": 55.71,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1742.86,
+            "Air Quality Index": 22.14,
+            "Happiness Score": -81.97,
+            "Cost of Living Index": 24.29,
+            "Healthcare Index": 97.57
+        }
     },
     {
         "city": "Rarawa",
@@ -2509,23 +3913,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.44772967265047514
+        "glow": 0.44772967265047514,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 400.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -1.4,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Rawene",
         "peakHeight": 0.9334741288278775,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.17972350230414746,
         "steepness": 0.41013824884792627,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9354870644139388,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5917370644139388
+        "glow": 0.5917370644139388,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 330.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 2.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Reefton",
@@ -2538,26 +3960,44 @@
         "steepness": 0.1001173020527859,
         "peakSharpness": 0.953125,
         "plateauSize": 0.5704378959873283,
-        "creviceDepth": 0.0444444444444445,
+        "creviceDepth": 0.03333333333333333,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.15637539598732836
+        "glow": 0.15637539598732836,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1517.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -68.42,
+            "Cost of Living Index": 24.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Rio de Janeiro",
         "peakHeight": 0.9788806758183738,
         "baseWidth": 0.5454545454545454,
         "roughness": 0.375,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.8345864661654135,
         "treeDensity": 0.024884792626728113,
         "steepness": 0.7602848764139086,
         "peakSharpness": 0.625,
         "plateauSize": 0.801940337909187,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.16541353383458648,
         "textureID": "natural",
-        "glow": 0.676940337909187
+        "glow": 0.676940337909187,
+        "originalData": {
+            "Decibel Level": 65.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 50.0,
+            "Air Quality Index": 55.0,
+            "Happiness Score": 6.5,
+            "Cost of Living Index": 80.0,
+            "Healthcare Index": 75.0
+        }
     },
     {
         "city": "Riverton",
@@ -2573,23 +4013,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.3470828933474129
+        "glow": 0.3470828933474129,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 915.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -32.3,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Rome",
         "peakHeight": 0.9809926082365364,
         "baseWidth": 0.5909090909090909,
         "roughness": 0.25,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.7669172932330827,
         "treeDensity": 0.01935483870967742,
         "steepness": 0.7857771260997067,
         "peakSharpness": 0.703125,
         "plateauSize": 0.8420588041182682,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.23308270676691734,
         "textureID": "industrial",
-        "glow": 0.6154963041182682
+        "glow": 0.6154963041182682,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 40.0,
+            "Air Quality Index": 70.0,
+            "Happiness Score": 6.7,
+            "Cost of Living Index": 85.0,
+            "Healthcare Index": 80.0
+        }
     },
     {
         "city": "Ross",
@@ -2605,7 +4063,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.3977692713833157
+        "glow": 0.3977692713833157,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 755.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -22.7,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Rotorua",
@@ -2621,7 +4088,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.018796992481203013,
         "textureID": "natural",
-        "glow": 0.47871568109820484
+        "glow": 0.47871568109820484,
+        "originalData": {
+            "Decibel Level": 52.5,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 342.5,
+            "Air Quality Index": 22.5,
+            "Happiness Score": -1.45,
+            "Cost of Living Index": 37.5,
+            "Healthcare Index": 97.5
+        }
     },
     {
         "city": "Ruakaka",
@@ -2637,7 +4113,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5089097148891235
+        "glow": 0.5089097148891235,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 395.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -1.65,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Ruatangata",
@@ -2653,87 +4138,141 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.48647043294614567
+        "glow": 0.48647043294614567,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 475.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -5.9,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Russell",
         "peakHeight": 0.9440337909186907,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.16866359447004609,
         "steepness": 0.41566820276497696,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9407668954593453,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5970168954593453
+        "glow": 0.5970168954593453,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 310.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 3.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "San Juan",
         "peakHeight": 0.9736008447729673,
         "baseWidth": 0.45454545454545453,
         "roughness": 0.625,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.4285714285714285,
         "treeDensity": 0.011059907834101382,
         "steepness": 0.7217427733556766,
         "peakSharpness": 0.546875,
         "plateauSize": 0.7602379223864837,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.5714285714285715,
         "textureID": "industrial",
-        "glow": 0.7993004223864837
+        "glow": 0.7993004223864837,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 25.0,
+            "Air Quality Index": 145.0,
+            "Happiness Score": 6.0,
+            "Cost of Living Index": 70.0,
+            "Healthcare Index": 70.0
+        }
     },
     {
         "city": "Santiago",
         "peakHeight": 0.9683210137275607,
         "baseWidth": 0.45454545454545453,
         "roughness": 0.375,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.6090225563909775,
         "treeDensity": 0.016589861751152075,
         "steepness": 0.7189777963971512,
         "peakSharpness": 0.546875,
         "plateauSize": 0.7575980068637804,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.3909774436090226,
         "textureID": "industrial",
-        "glow": 0.6716605068637804
+        "glow": 0.6716605068637804,
+        "originalData": {
+            "Decibel Level": 65.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 35.0,
+            "Air Quality Index": 105.0,
+            "Happiness Score": 5.5,
+            "Cost of Living Index": 70.0,
+            "Healthcare Index": 70.0
+        }
     },
     {
         "city": "Santo Domingo",
         "peakHeight": 0.9683210137275607,
         "baseWidth": 0.3181818181818182,
         "roughness": 0.5,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.45112781954887216,
         "treeDensity": 0.013824884792626729,
         "steepness": 0.6521784666945957,
         "peakSharpness": 0.46875,
         "plateauSize": 0.7185355068637804,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.5488721804511278,
         "textureID": "industrial",
-        "glow": 0.7341605068637804
+        "glow": 0.7341605068637804,
+        "originalData": {
+            "Decibel Level": 70.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 30.0,
+            "Air Quality Index": 140.0,
+            "Happiness Score": 5.5,
+            "Cost of Living Index": 55.0,
+            "Healthcare Index": 65.0
+        }
     },
     {
         "city": "Seoul",
         "peakHeight": 0.9714889123548046,
         "baseWidth": 0.7727272727272727,
         "roughness": 0.5,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.744360902255639,
         "treeDensity": 0.011059907834101382,
         "steepness": 0.8808336824465857,
         "peakSharpness": 0.625,
         "plateauSize": 0.7982444561774023,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.25563909774436094,
         "textureID": "industrial",
-        "glow": 0.7357444561774023
+        "glow": 0.7357444561774023,
+        "originalData": {
+            "Decibel Level": 70.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 25.0,
+            "Air Quality Index": 75.0,
+            "Happiness Score": 5.8,
+            "Cost of Living Index": 105.0,
+            "Healthcare Index": 75.0
+        }
     },
     {
         "city": "Shanghai",
@@ -2749,55 +4288,91 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.6842105263157895,
         "textureID": "industrial",
-        "glow": 0.7940205913410772
+        "glow": 0.7940205913410772,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 20.0,
+            "Air Quality Index": 170.0,
+            "Happiness Score": 5.0,
+            "Cost of Living Index": 80.0,
+            "Healthcare Index": 75.0
+        }
     },
     {
         "city": "Singapore",
         "peakHeight": 0.9841605068637803,
         "baseWidth": 0.9545454545454546,
         "roughness": 0.375,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.8120300751879699,
         "treeDensity": 0.022119815668202765,
         "steepness": 0.9662128194386259,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9608302534318902,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.1879699248120301,
         "textureID": "industrial",
-        "glow": 0.6795802534318902
+        "glow": 0.6795802534318902,
+        "originalData": {
+            "Decibel Level": 65.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 45.0,
+            "Air Quality Index": 60.0,
+            "Happiness Score": 7.0,
+            "Cost of Living Index": 125.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Sofia",
         "peakHeight": 0.9736008447729673,
         "baseWidth": 0.36363636363636365,
         "roughness": 0.5,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.7218045112781954,
         "treeDensity": 0.016589861751152075,
         "steepness": 0.6735232509426058,
         "peakSharpness": 0.625,
         "plateauSize": 0.7993004223864837,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.27819548872180455,
         "textureID": "industrial",
-        "glow": 0.7368004223864837
+        "glow": 0.7368004223864837,
+        "originalData": {
+            "Decibel Level": 70.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 35.0,
+            "Air Quality Index": 80.0,
+            "Happiness Score": 6.0,
+            "Cost of Living Index": 60.0,
+            "Healthcare Index": 75.0
+        }
     },
     {
         "city": "Southland",
         "peakHeight": 0.006335797254487647,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.9944700460829493,
         "steepness": 0.0027649769585253448,
         "peakSharpness": 0.9375,
         "plateauSize": 0.4719178986272438,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.12816789862724381
+        "glow": 0.12816789862724381,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 1803.33,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -85.6,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "St Arnaud",
@@ -2813,7 +4388,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.08233707949917021
+        "glow": 0.08233707949917021,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1750.71,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -82.44,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Stewart Island",
@@ -2826,10 +4410,19 @@
         "steepness": 0.03963133640552996,
         "peakSharpness": 0.9642857142857142,
         "plateauSize": 0.5275494041333533,
-        "creviceDepth": 0.06349206349206352,
+        "creviceDepth": 0.0476190476190476,
         "cloudLevel": 0.036519871106337275,
         "textureID": "natural",
-        "glow": 0.06326368984763908
+        "glow": 0.06326368984763908,
+        "originalData": {
+            "Decibel Level": 51.43,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1670.0,
+            "Air Quality Index": 26.43,
+            "Happiness Score": -77.6,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 96.71
+        }
     },
     {
         "city": "Stockholm",
@@ -2845,7 +4438,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5598600844772967
+        "glow": 0.5598600844772967,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 80.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 8.0,
+            "Cost of Living Index": 100.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Sydney",
@@ -2861,23 +4463,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5588041182682154
+        "glow": 0.5588041182682154,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 60.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 7.8,
+            "Cost of Living Index": 115.0,
+            "Healthcare Index": 88.0
+        }
     },
     {
         "city": "S\u00e3o Paulo",
         "peakHeight": 0.9630411826821542,
         "baseWidth": 0.4090909090909091,
         "roughness": 0.5,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.6541353383458646,
         "treeDensity": 0.01935483870967742,
         "steepness": 0.6948680351906158,
         "peakSharpness": 0.625,
         "plateauSize": 0.7940205913410772,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.3458646616541354,
         "textureID": "industrial",
-        "glow": 0.7315205913410772
+        "glow": 0.7315205913410772,
+        "originalData": {
+            "Decibel Level": 70.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 40.0,
+            "Air Quality Index": 95.0,
+            "Happiness Score": 5.0,
+            "Cost of Living Index": 65.0,
+            "Healthcare Index": 75.0
+        }
     },
     {
         "city": "Taipa",
@@ -2893,23 +4513,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.45406546990496305
+        "glow": 0.45406546990496305,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 380.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -0.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Taipei",
         "peakHeight": 0.9714889123548046,
         "baseWidth": 0.5,
         "roughness": 0.5,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.33834586466165417,
         "treeDensity": 0.013824884792626729,
         "steepness": 0.7430875576036866,
         "peakSharpness": 0.546875,
         "plateauSize": 0.7591819561774023,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.6616541353383458,
         "textureID": "industrial",
-        "glow": 0.7357444561774023
+        "glow": 0.7357444561774023,
+        "originalData": {
+            "Decibel Level": 70.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 30.0,
+            "Air Quality Index": 165.0,
+            "Happiness Score": 5.8,
+            "Cost of Living Index": 75.0,
+            "Healthcare Index": 70.0
+        }
     },
     {
         "city": "Tairua",
@@ -2925,23 +4563,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5566921858500529
+        "glow": 0.5566921858500529,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 215.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 7.4,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Takaka",
         "peakHeight": 0.5240232312565997,
         "baseWidth": 0.011363636363636364,
         "roughness": 0.15625,
-        "numPeaks": 2,
+        "numPeaks": 1,
         "snowCap": 0.9530075187969925,
         "treeDensity": 0.5426267281105991,
         "steepness": 0.23436845412651863,
         "peakSharpness": 0.95703125,
         "plateauSize": 0.7405272406282999,
-        "creviceDepth": 0.2222222222222222,
+        "creviceDepth": 0.16666666666666666,
         "cloudLevel": 0.04699248120300752,
         "textureID": "natural",
-        "glow": 0.34013661562829983
+        "glow": 0.34013661562829983,
+        "originalData": {
+            "Decibel Level": 56.25,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 986.25,
+            "Air Quality Index": 28.75,
+            "Happiness Score": -36.58,
+            "Cost of Living Index": 21.25,
+            "Healthcare Index": 96.25
+        }
     },
     {
         "city": "Taupo",
@@ -2957,7 +4613,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.49841605068637806
+        "glow": 0.49841605068637806,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 160.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": 8.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Tauranga",
@@ -2973,7 +4638,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.04135338345864662,
         "textureID": "natural",
-        "glow": 0.47924366420274556
+        "glow": 0.47924366420274556,
+        "originalData": {
+            "Decibel Level": 52.5,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 337.5,
+            "Air Quality Index": 27.5,
+            "Happiness Score": -1.35,
+            "Cost of Living Index": 37.5,
+            "Healthcare Index": 96.5
+        }
     },
     {
         "city": "Taurikura",
@@ -2989,7 +4663,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.4833025343189018
+        "glow": 0.4833025343189018,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 485.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -6.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Te Anau",
@@ -3002,10 +4685,19 @@
         "steepness": 0.10793185309314336,
         "peakSharpness": 0.9548611111111112,
         "plateauSize": 0.5837311539364074,
-        "creviceDepth": 0.04938271604938273,
+        "creviceDepth": 0.03703703703703703,
         "cloudLevel": 0.05012531328320802,
         "textureID": "natural",
-        "glow": 0.16185615393640734
+        "glow": 0.16185615393640734,
+        "originalData": {
+            "Decibel Level": 54.44,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1477.78,
+            "Air Quality Index": 29.44,
+            "Happiness Score": -66.07,
+            "Cost of Living Index": 23.33,
+            "Healthcare Index": 96.11
+        }
     },
     {
         "city": "Te Aroha",
@@ -3021,7 +4713,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5582761351636748
+        "glow": 0.5582761351636748,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 195.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 7.7,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Te Awamutu",
@@ -3037,7 +4738,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.49788806758183735
+        "glow": 0.49788806758183735,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 180.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": 8.1,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Te Hana",
@@ -3053,23 +4763,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5466605068637804
+        "glow": 0.5466605068637804,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 265.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 5.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Te Kuiti",
         "peakHeight": 0.9936642027455121,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.0912442396313364,
         "steepness": 0.4543778801843318,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9655821013727561,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.6218321013727561
+        "glow": 0.6218321013727561,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 170.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 7.9,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Tehran",
@@ -3085,7 +4813,16 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.7518796992481203,
         "textureID": "industrial",
-        "glow": 0.845960929250264
+        "glow": 0.845960929250264,
+        "originalData": {
+            "Decibel Level": 80.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 15.0,
+            "Air Quality Index": 185.0,
+            "Happiness Score": 3.0,
+            "Cost of Living Index": 45.0,
+            "Healthcare Index": 50.0
+        }
     },
     {
         "city": "Tekapo",
@@ -3101,7 +4838,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.4167766631467793
+        "glow": 0.4167766631467793,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 695.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -19.1,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "The Catlins",
@@ -3117,7 +4863,16 @@
         "creviceDepth": 1.5419764230904953e-17,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.06408394931362195
+        "glow": 0.06408394931362195,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1808.33,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -85.9,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Timaru",
@@ -3133,7 +4888,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.027255639097744366,
         "textureID": "natural",
-        "glow": 0.08311609028511083
+        "glow": 0.08311609028511083,
+        "originalData": {
+            "Decibel Level": 50.62,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1575.62,
+            "Air Quality Index": 24.38,
+            "Happiness Score": -71.94,
+            "Cost of Living Index": 20.62,
+            "Healthcare Index": 97.12
+        }
     },
     {
         "city": "Tokoroa",
@@ -3149,39 +4913,66 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5614440337909187
+        "glow": 0.5614440337909187,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 165.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 8.3,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Tokyo",
         "peakHeight": 0.9736008447729673,
         "baseWidth": 0.9090909090909091,
         "roughness": 0.375,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.7669172932330827,
         "treeDensity": 0.013824884792626729,
         "steepness": 0.9476330121491412,
         "peakSharpness": 0.859375,
         "plateauSize": 0.9164879223864837,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.23308270676691734,
         "textureID": "industrial",
-        "glow": 0.6743004223864837
+        "glow": 0.6743004223864837,
+        "originalData": {
+            "Decibel Level": 65.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 30.0,
+            "Air Quality Index": 70.0,
+            "Happiness Score": 6.0,
+            "Cost of Living Index": 120.0,
+            "Healthcare Index": 90.0
+        }
     },
     {
         "city": "Toronto",
         "peakHeight": 0.9852164730728616,
         "baseWidth": 0.6818181818181818,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.9022556390977443,
         "treeDensity": 0.027649769585253458,
         "steepness": 0.8270842061164642,
         "peakSharpness": 0.78125,
         "plateauSize": 0.8832332365364308,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.09774436090225565,
         "textureID": "natural",
-        "glow": 0.6176082365364308
+        "glow": 0.6176082365364308,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 55.0,
+            "Air Quality Index": 40.0,
+            "Happiness Score": 7.1,
+            "Cost of Living Index": 95.0,
+            "Healthcare Index": 85.0
+        }
     },
     {
         "city": "Tuatapere",
@@ -3197,7 +4988,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.35025079197465675
+        "glow": 0.35025079197465675,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 905.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -31.7,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Tutukaka",
@@ -3213,23 +5013,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5202613516367476
+        "glow": 0.5202613516367476,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 365.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 0.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Twizel",
         "peakHeight": 0.7117212249208025,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.37880184331797234,
         "steepness": 0.31059907834101386,
         "peakSharpness": 0.9375,
         "plateauSize": 0.8246106124604012,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.48086061246040124
+        "glow": 0.48086061246040124,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 690.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -18.8,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Vienna",
@@ -3245,23 +5063,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5609160506863781
+        "glow": 0.5609160506863781,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 70.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 8.2,
+            "Cost of Living Index": 95.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Vientiane",
         "peakHeight": 0.9524815205913411,
         "baseWidth": 0.045454545454545456,
         "roughness": 0.625,
-        "numPeaks": 6,
+        "numPeaks": 4,
         "snowCap": 0.045112781954887216,
         "treeDensity": 0.005529953917050691,
         "steepness": 0.5199622957687474,
         "peakSharpness": 0.078125,
         "plateauSize": 0.5153032602956705,
-        "creviceDepth": 1.0,
+        "creviceDepth": 0.6666666666666666,
         "cloudLevel": 0.9548872180451128,
         "textureID": "industrial",
-        "glow": 0.7887407602956705
+        "glow": 0.7887407602956705,
+        "originalData": {
+            "Decibel Level": 75.0,
+            "Traffic Density": "High",
+            "Green Space Area (%)": 15.0,
+            "Air Quality Index": 230.0,
+            "Happiness Score": 4.0,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 40.0
+        }
     },
     {
         "city": "Waiau",
@@ -3277,7 +5113,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.31223600844772964
+        "glow": 0.31223600844772964,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1025.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -38.9,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Waihi",
@@ -3293,7 +5138,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5572201689545935
+        "glow": 0.5572201689545935,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 205.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 7.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Waimamaku",
@@ -3309,7 +5163,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.5255411826821541
+        "glow": 0.5255411826821541,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 345.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": 1.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Waimate North",
@@ -3325,39 +5188,66 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.49914202745512143
+        "glow": 0.49914202745512143,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 435.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -3.5,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Waipoua",
         "peakHeight": 0.9229144667370645,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.19078341013824884,
         "steepness": 0.4046082949308756,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9302072333685323,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5864572333685323
+        "glow": 0.5864572333685323,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 350.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 1.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Waipu",
         "peakHeight": 0.8922914466737064,
         "baseWidth": 0.0,
         "roughness": 0.125,
-        "numPeaks": 2,
+        "numPeaks": 1,
         "snowCap": 0.9473684210526315,
         "treeDensity": 0.21566820276497697,
         "steepness": 0.3921658986175115,
         "peakSharpness": 0.953125,
         "plateauSize": 0.9227082233368532,
-        "creviceDepth": 0.2222222222222222,
+        "creviceDepth": 0.16666666666666666,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5086457233368532
+        "glow": 0.5086457233368532,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 395.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -1.7,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Wairau Valley",
@@ -3373,7 +5263,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.02142102881279224
+        "glow": 0.02142102881279224,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 1745.71,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -82.14,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Wanaka",
@@ -3386,10 +5285,19 @@
         "steepness": 0.10305357724712563,
         "peakSharpness": 0.9513888888888888,
         "plateauSize": 0.5879788513434236,
-        "creviceDepth": 0.2962962962962962,
+        "creviceDepth": 0.22222222222222227,
         "cloudLevel": 0.05513784461152884,
         "textureID": "natural",
-        "glow": 0.2095066291212014
+        "glow": 0.2095066291212014,
+        "originalData": {
+            "Decibel Level": 57.78,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 1458.89,
+            "Air Quality Index": 30.56,
+            "Happiness Score": -64.93,
+            "Cost of Living Index": 21.11,
+            "Healthcare Index": 95.89
+        }
     },
     {
         "city": "Warkworth",
@@ -3405,23 +5313,41 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.44720168954593453
+        "glow": 0.44720168954593453,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 390.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -1.5,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Warsaw",
         "peakHeight": 0.9809926082365364,
         "baseWidth": 0.45454545454545453,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.744360902255639,
         "treeDensity": 0.01935483870967742,
         "steepness": 0.7175953079178885,
         "peakSharpness": 0.734375,
         "plateauSize": 0.8576838041182682,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.25563909774436094,
         "textureID": "natural",
-        "glow": 0.6154963041182682
+        "glow": 0.6154963041182682,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 40.0,
+            "Air Quality Index": 75.0,
+            "Happiness Score": 6.7,
+            "Cost of Living Index": 70.0,
+            "Healthcare Index": 82.0
+        }
     },
     {
         "city": "Wellington",
@@ -3437,7 +5363,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.47317185850052795
+        "glow": 0.47317185850052795,
+        "originalData": {
+            "Decibel Level": 52.5,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 337.5,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -2.5,
+            "Cost of Living Index": 57.5,
+            "Healthcare Index": 94.5
+        }
     },
     {
         "city": "Wellsford",
@@ -3453,7 +5388,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5083817317845829
+        "glow": 0.5083817317845829,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 395.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": -1.75,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Westport",
@@ -3466,74 +5410,119 @@
         "steepness": 0.22152981427174978,
         "peakSharpness": 0.9453125,
         "plateauSize": 0.7221282668954594,
-        "creviceDepth": 0.29629629629629634,
+        "creviceDepth": 0.2222222222222222,
         "cloudLevel": 0.06390977443609024,
         "textureID": "natural",
-        "glow": 0.34322201689545934
+        "glow": 0.34322201689545934,
+        "originalData": {
+            "Decibel Level": 57.5,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 1025.83,
+            "Air Quality Index": 32.5,
+            "Happiness Score": -38.95,
+            "Cost of Living Index": 20.83,
+            "Healthcare Index": 95.5
+        }
     },
     {
         "city": "Whakatane",
         "peakHeight": 0.7877507919746568,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.31244239631336407,
         "steepness": 0.343778801843318,
         "peakSharpness": 0.9375,
         "plateauSize": 0.8626253959873285,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5188753959873285
+        "glow": 0.5188753959873285,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 570.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": -11.6,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Whananaki",
         "peakHeight": 0.9123548046462513,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.20184331797235025,
         "steepness": 0.3990783410138249,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9249274023231256,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.5811774023231256
+        "glow": 0.5811774023231256,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 370.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 0.2,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Whangamata",
         "peakHeight": 0.9873284054910243,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.11336405529953918,
         "steepness": 0.4433179723502304,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9624142027455121,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.6186642027455121
+        "glow": 0.6186642027455121,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 210.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 7.3,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Whangaparaoa",
         "peakHeight": 0.9841605068637803,
         "baseWidth": 0.0,
         "roughness": 0.25,
-        "numPeaks": 3,
+        "numPeaks": 2,
         "snowCap": 0.924812030075188,
         "treeDensity": 0.12442396313364056,
         "steepness": 0.4377880184331797,
         "peakSharpness": 0.9375,
         "plateauSize": 0.9608302534318902,
-        "creviceDepth": 0.4444444444444445,
+        "creviceDepth": 0.33333333333333337,
         "cloudLevel": 0.07518796992481204,
         "textureID": "natural",
-        "glow": 0.6170802534318902
+        "glow": 0.6170802534318902,
+        "originalData": {
+            "Decibel Level": 60.0,
+            "Traffic Density": "Medium",
+            "Green Space Area (%)": 230.0,
+            "Air Quality Index": 35.0,
+            "Happiness Score": 7.0,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 95.0
+        }
     },
     {
         "city": "Whangarei",
@@ -3549,7 +5538,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.4804646251319958
+        "glow": 0.4804646251319958,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 280.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": 4.8,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Whangarei Heads",
@@ -3565,7 +5563,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.4160506863780359
+        "glow": 0.4160506863780359,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 500.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": -7.4,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Whangaruru",
@@ -3581,7 +5588,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.05263157894736843,
         "textureID": "natural",
-        "glow": 0.5176214361140443
+        "glow": 0.5176214361140443,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 375.0,
+            "Air Quality Index": 30.0,
+            "Happiness Score": 0.0,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 96.0
+        }
     },
     {
         "city": "Whataroa",
@@ -3597,7 +5613,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.007518796992481209,
         "textureID": "natural",
-        "glow": 0.4009371700105597
+        "glow": 0.4009371700105597,
+        "originalData": {
+            "Decibel Level": 55.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 745.0,
+            "Air Quality Index": 20.0,
+            "Happiness Score": -22.1,
+            "Cost of Living Index": 25.0,
+            "Healthcare Index": 98.0
+        }
     },
     {
         "city": "Whitianga",
@@ -3613,7 +5638,16 @@
         "creviceDepth": 0.0,
         "cloudLevel": 0.030075187969924817,
         "textureID": "natural",
-        "glow": 0.4947201689545935
+        "glow": 0.4947201689545935,
+        "originalData": {
+            "Decibel Level": 50.0,
+            "Traffic Density": "Low",
+            "Green Space Area (%)": 220.0,
+            "Air Quality Index": 25.0,
+            "Happiness Score": 7.5,
+            "Cost of Living Index": 20.0,
+            "Healthcare Index": 97.0
+        }
     },
     {
         "city": "Yangon",
@@ -3629,6 +5663,15 @@
         "creviceDepth": 1.0,
         "cloudLevel": 0.8872180451127819,
         "textureID": "industrial",
-        "glow": 0.8486008447729673
+        "glow": 0.8486008447729673,
+        "originalData": {
+            "Decibel Level": 80.0,
+            "Traffic Density": "Very High",
+            "Green Space Area (%)": 20.0,
+            "Air Quality Index": 215.0,
+            "Happiness Score": 3.5,
+            "Cost of Living Index": 30.0,
+            "Healthcare Index": 45.0
+        }
     }
 ]
