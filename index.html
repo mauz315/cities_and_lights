@@ -1,88 +1,13 @@
 <!DOCTYPE html>
-<html class="dark" lang="en">
+<html lang="en">
 <head>
-    <meta charset="utf-8"/>
-    <meta content="width=device-width, initial-scale=1.0" name="viewport"/>
-    <script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
-    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
-    <style>
-        .material-symbols-outlined { font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24; }
-        body { background-color: #131315; color: #e5e1e4; overflow: hidden; }
-        .glass-panel { backdrop-filter: blur(24px); background: rgba(15, 15, 20, 0.4); border: 1px solid rgba(255, 255, 255, 0.05); }
-        .viewport-grid { background-image: linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px); background-size: 60px 60px; }
-        #app { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 1; }
-        canvas { display: block; }
-    </style>
-    <script id="tailwind-config">
-        tailwind.config = {
-            darkMode: "class",
-            theme: {
-                extend: {
-                    "colors": { "background": "#131315", "on-surface": "#e5e1e4", "on-surface-variant": "#bac9cd", "outline-variant": "#3b494c" },
-                    "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
-                    "spacing": { "unit": "4px", "gutter": "12px" },
-                    "fontFamily": { "body-md": ["JetBrains Mono"], "label-sm": ["JetBrains Mono"] },
-                    "fontSize": { "body-md": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}], "label-sm": ["11px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "500"}] }
-                }
-            }
-        }
-    </script>
-<script type="importmap">
-{
-  "imports": {
-    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
-    "three/examples/jsm/controls/OrbitControls.js": "https://unpkg.com/three@0.160.0/examples/jsm/controls/OrbitControls.js"
-  }
-}
-</script>
-  <script type="module" crossorigin src="/cities_and_lights/assets/index-C58Mo-qP.js"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cities and Lights</title>
+  <script type="module" crossorigin src="/cities_and_lights/assets/index-DV92zBX5.js"></script>
+  <link rel="stylesheet" crossorigin href="/cities_and_lights/assets/index-jKw0cME6.css">
 </head>
-<body class="font-body-md text-body-md selection:bg-primary-container/20 selection:text-on-surface">
-
-<!-- Main Viewport Canvas -->
-<div id="app" class="viewport-grid"></div>
-
-<!-- City Selector Menu -->
-<div class="fixed top-8 left-8 z-30">
-    <div class="glass-panel p-1 flex flex-col gap-1 w-60">
-        <div class="px-4 py-2 mb-1">
-            <span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest opacity-60">Topography</span>
-        </div>
-        <div id="city-buttons" class="space-y-px">
-            <!-- City buttons will be dynamically inserted here -->
-        </div>
-    </div>
-</div>
-
-<!-- Mountain Details Panel -->
-<div id="mountain-details" class="fixed bottom-24 right-8 z-30 glass-panel p-4 rounded-lg w-72 hidden">
-    <!-- Details will be dynamically inserted here -->
-</div>
-
-<!-- Camera Controls Widget -->
-<div class="fixed bottom-8 right-8 z-30">
-    <div class="glass-panel px-4 py-2 flex items-center gap-6 rounded-lg">
-        <button id="pan-button" class="flex items-center gap-2 group transition-colors text-on-surface-variant hover:text-on-surface">
-            <span class="material-symbols-outlined text-[20px]">pan_tool</span>
-            <span class="font-label-sm text-label-sm uppercase opacity-60 group-hover:opacity-100">Pan</span>
-        </button>
-        <div class="h-4 w-px bg-outline-variant/20"></div>
-        <button id="zoom-button" class="flex items-center gap-2 group transition-colors text-on-surface-variant hover:text-on-surface">
-            <span class="material-symbols-outlined text-[20px]">zoom_in</span>
-            <span class="font-label-sm text-label-sm uppercase opacity-60 group-hover:opacity-100">Zoom</span>
-        </button>
-        <div class="h-4 w-px bg-outline-variant/20"></div>
-        <button id="rotate-button" class="flex items-center gap-2 group transition-colors text-on-surface-variant hover:text-on-surface">
-            <span class="material-symbols-outlined text-[20px]">sync</span>
-            <span class="font-label-sm text-label-sm uppercase opacity-60 group-hover:opacity-100">Rotate</span>
-        </button>
-    </div>
-</div>
-
-
-
-
-
+<body>
+    <div id="app"></div>
 </body>
 </html>
