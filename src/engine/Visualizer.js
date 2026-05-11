@@ -38,6 +38,10 @@ class Visualizer {
         this.controls = new OrbitControls(this.camera, this.renderer.domElement);
         this.mountains = [];
         this.data = [];
+        
+        // Use Vite's base URL for correct path resolution in prod and dev
+        this.baseUrl = import.meta.env.BASE_URL;
+        
         this.init();
     }
 
@@ -73,7 +77,8 @@ class Visualizer {
 
     async loadData() {
         try {
-            const response = await fetch('/assets/data/mountains_data.json');
+            // Updated path to use baseUrl
+            const response = await fetch(`${this.baseUrl}assets/data/mountains_data.json`);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             this.data = await response.json();
             this.createMountains(this.data);
@@ -85,8 +90,9 @@ class Visualizer {
 
     createMountains(data) {
         const textureLoader = new THREE.TextureLoader();
-        const industrialTexture = textureLoader.load('/assets/textures/industrial.jpg');
-        const naturalTexture = textureLoader.load('/assets/textures/natural.jpg');
+        // Updated paths to use baseUrl
+        const industrialTexture = textureLoader.load(`${this.baseUrl}assets/textures/industrial.jpg`);
+        const naturalTexture = textureLoader.load(`${this.baseUrl}assets/textures/natural.jpg`);
 
         data.forEach((cityData, index) => {
             const geometry = new THREE.PlaneGeometry(cityData.baseWidth * 40 + 15, cityData.baseWidth * 40 + 15, 100, 100);
@@ -167,9 +173,9 @@ class Visualizer {
         for (const [key, value] of Object.entries(cityData)) {
             if (key === 'city') continue; // Skip the city name itself
             const listItem = document.createElement('li');
-            listItem.className = 'flex justify-between';
+            listItem.className = 'flex justify-between gap-4 border-b border-white/10 pb-1';
             const valueFormatted = typeof value === 'number' ? value.toFixed(2) : value;
-            listItem.innerHTML = `<span class="text-on-surface-variant">${key}:</span> <span class="font-bold text-on-surface">${valueFormatted}</span>`;
+            listItem.innerHTML = `<span class="text-on-surface-variant capitalize">${key.replace(/([A-Z])/g, ' $1').trim()}:</span> <span class="font-bold text-surface-tint">${valueFormatted}</span>`;
             list.appendChild(listItem);
         }
     }
