@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Geist:wght@400;600;700&amp;family=JetBrains+Mono:wght@400;500&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        }
+        body {
+            background-color: #131315;
+            color: #e5e1e4;
+            overflow: hidden;
+        }
+        .glass-panel {
+            backdrop-filter: blur(24px);
+            background: rgba(15, 15, 20, 0.4);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+        }
+        .viewport-grid {
+            background-image:
+                linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px),
+                linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px);
+            background-size: 60px 60px;
+        }
+    </style>
+<script id="tailwind-config">
+        tailwind.config = {
+            darkMode: "class",
+            theme: {
+                extend: {
+                    "colors": {
+                        "background": "#131315",
+                        "secondary": "#c1c7cf",
+                        "on-primary-fixed-variant": "#004e5a",
+                        "tertiary-container": "#bdcee8",
+                        "surface-bright": "#39393b",
+                        "on-surface": "#e5e1e4",
+                        "surface-tint": "#00daf8",
+                        "secondary-container": "#41474e",
+                        "on-error": "#690005",
+                        "on-secondary-fixed": "#161c22",
+                        "inverse-primary": "#006877",
+                        "on-surface-variant": "#bac9cd",
+                        "on-primary-container": "#005f6d",
+                        "on-background": "#e5e1e4",
+                        "on-secondary-container": "#afb6bd",
+                        "surface-container-high": "#2a2a2c",
+                        "surface-container-lowest": "#0e0e10",
+                        "surface-container-highest": "#353437",
+                        "tertiary-fixed": "#d3e4fe",
+                        "on-tertiary-fixed": "#0b1c30",
+                        "tertiary": "#ddeaff",
+                        "surface-variant": "#353437",
+                        "error-container": "#93000a",
+                        "on-tertiary-fixed-variant": "#38485d",
+                        "on-tertiary-container": "#48586d",
+                        "primary-fixed-dim": "#00daf8",
+                        "on-secondary": "#2b3137",
+                        "outline": "#859397",
+                        "surface-dim": "#131315",
+                        "inverse-on-surface": "#313032",
+                        "secondary-fixed-dim": "#c1c7cf",
+                        "secondary-fixed": "#dde3eb",
+                        "inverse-surface": "#e5e1e4",
+                        "error": "#ffb4ab",
+                        "primary": "#baf2ff",
+                        "on-primary-fixed": "#001f25",
+                        "on-tertiary": "#213145",
+                        "on-error-container": "#ffdad6",
+                        "tertiary-fixed-dim": "#b7c8e1",
+                        "primary-container": "#00e0ff",
+                        "on-secondary-fixed-variant": "#41474e",
+                        "surface-container": "#201f21",
+                        "surface-container-low": "#1c1b1d",
+                        "primary-fixed": "#a5eeff",
+                        "surface": "#131315",
+                        "outline-variant": "#3b494c",
+                        "on-primary": "#00363f"
+                    },
+                    "borderRadius": {
+                        "DEFAULT": "0.125rem",
+                        "lg": "0.25rem",
+                        "xl": "0.5rem",
+                        "full": "0.75rem"
+                    },
+                    "spacing": {
+                        "unit": "4px",
+                        "toolbar-height": "48px",
+                        "margin-panel": "16px",
+                        "sidebar-width": "280px",
+                        "gutter": "12px"
+                    },
+                    "fontFamily": {
+                        "display-lg": ["Geist"],
+                        "headline-md": ["Geist"],
+                        "code-xs": ["JetBrains Mono"],
+                        "body-md": ["JetBrains Mono"],
+                        "label-sm": ["JetBrains Mono"]
+                    },
+                    "fontSize": {
+                        "display-lg": ["48px", {"lineHeight": "1.1", "letterSpacing": "-0.02em", "fontWeight": "700"}],
+                        "headline-md": ["24px", {"lineHeight": "1.2", "fontWeight": "600"}],
+                        "code-xs": ["12px", {"lineHeight": "1.4", "fontWeight": "400"}],
+                        "body-md": ["14px", {"lineHeight": "1.5", "fontWeight": "400"}],
+                        "label-sm": ["11px", {"lineHeight": "1.2", "letterSpacing": "0.05em", "fontWeight": "500"}]
+                    }
+                }
+            }
+        }
+    </script>
+</head>
+<body class="font-body-md text-body-md selection:bg-primary-container/20 selection:text-on-surface">
+<!-- Main Viewport Canvas -->
+<main class="fixed inset-0 w-full h-full viewport-grid flex items-center justify-center overflow-hidden">
+<div class="relative w-full h-full flex items-center justify-center">
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-background/50 pointer-events-none"></div>
+<div class="relative group cursor-grab active:cursor-grabbing">
+<img alt="3D Mountain Model" class="w-[80vw] h-[614px] object-contain mix-blend-screen opacity-90 transition-transform duration-700" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD1_Ou5OAVyTLDCGVblqFBLGzHH31-9fr5zrpj4ogeD_pxsDGHyJ_EUaORXkLEHDBGB2hAqPxtXoQmiSyEEQNNhBzWxLzsJ-DnAkF4BM4dYmYbeCEyUgZGRW3MAJFq5HEWVBbnqu5jsE3nzSdNDuADClgP57KSGIhZvinyAZLWcTKYv3CD06py1p1-8EQ2grKIUpKDcPGxscItqmRz8koqcilCZ6i3IXIaxHt4tXvuEJkDlsNDOhv_Ptxrg5aGHCHAzEeXD9VXbyPU"/>
+</div>
+</div>
+</main>
+<!-- Sidebar -->
+<aside class="fixed left-0 top-0 h-full z-50 flex flex-col px-margin-panel py-8 bg-surface/30 backdrop-blur-xl border-r border-outline-variant/10 w-sidebar-width">
+<div class="mb-12">
+<h1 class="font-display-lg text-headline-md tracking-tighter text-on-surface">GEO-STATIC</h1>
+<p class="font-code-xs text-code-xs text-on-surface-variant opacity-40">Terrain Engine</p>
+</div>
+<nav class="flex flex-col gap-1 mb-auto">
+<div class="text-on-surface bg-white/5 px-4 py-3 flex items-center gap-3 transition-colors duration-200 cursor-pointer">
+<span class="material-symbols-outlined text-sm" data-icon="database">database</span>
+<span class="font-body-md">Database</span>
+</div>
+<div class="text-on-surface-variant px-4 py-3 flex items-center gap-3 hover:bg-white/5 hover:text-on-surface transition-colors duration-200 cursor-pointer">
+<span class="material-symbols-outlined text-sm" data-icon="layers">layers</span>
+<span class="font-body-md">Layers</span>
+</div>
+<div class="text-on-surface-variant px-4 py-3 flex items-center gap-3 hover:bg-white/5 hover:text-on-surface transition-colors duration-200 cursor-pointer">
+<span class="material-symbols-outlined text-sm" data-icon="biotech">biotech</span>
+<span class="font-body-md">Simulations</span>
+</div>
+<div class="text-on-surface-variant px-4 py-3 flex items-center gap-3 hover:bg-white/5 hover:text-on-surface transition-colors duration-200 cursor-pointer">
+<span class="material-symbols-outlined text-sm" data-icon="settings">settings</span>
+<span class="font-body-md">Settings</span>
+</div>
+</nav>
+</aside>
+<!-- Top Info Bar -->
+<header class="fixed top-0 right-0 left-0 h-toolbar-height z-40 flex justify-end items-center px-gutter w-full ml-sidebar-width bg-transparent">
+<div class="flex items-center gap-4 pr-4">
+<div class="flex items-center gap-2 px-3 py-1.5 glass-panel rounded-lg">
+<div class="w-1.5 h-1.5 rounded-full bg-on-surface-variant opacity-50"></div>
+<span class="font-code-xs text-code-xs text-on-surface-variant">v0.8.4</span>
+</div>
+<button class="p-2 text-on-surface-variant hover:text-on-surface transition-colors">
+<span class="material-symbols-outlined" data-icon="account_circle">account_circle</span>
+</button>
+</div>
+</header>
+<!-- Selection Menu Overlay -->
+<div class="fixed top-24 left-[300px] z-30">
+<div class="glass-panel p-1 flex flex-col gap-1 w-60">
+<div class="px-4 py-2 mb-1">
+<span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest opacity-60">Topography</span>
+</div>
+<div class="space-y-px">
+<button class="w-full flex justify-between items-center px-4 py-2.5 bg-white/5 group">
+<span class="font-body-md text-on-surface">Denver, CO</span>
+<span class="text-[10px] font-code-xs text-on-surface opacity-40">ACTIVE</span>
+</button>
+<button class="w-full flex justify-between items-center px-4 py-2.5 hover:bg-white/5 transition-colors group">
+<span class="font-body-md text-on-surface-variant group-hover:text-on-surface transition-colors">Kathmandu, NP</span>
+</button>
+<button class="w-full flex justify-between items-center px-4 py-2.5 hover:bg-white/5 transition-colors group">
+<span class="font-body-md text-on-surface-variant group-hover:text-on-surface transition-colors">Zurich, CH</span>
+</button>
+<button class="w-full flex justify-between items-center px-4 py-2.5 hover:bg-white/5 transition-colors group">
+<span class="font-body-md text-on-surface-variant group-hover:text-on-surface transition-colors">Aspen, CO</span>
+</button>
+</div>
+</div>
+</div>
+<!-- Simplified Controls Widget -->
+<div class="fixed bottom-8 right-8 z-30">
+<div class="glass-panel px-4 py-2 flex items-center gap-6 rounded-lg">
+<button class="flex items-center gap-2 group transition-colors text-on-surface-variant hover:text-on-surface">
+<span class="material-symbols-outlined text-[20px]" data-icon="pan_tool">pan_tool</span>
+<span class="font-label-sm text-label-sm uppercase opacity-60 group-hover:opacity-100">Pan</span>
+</button>
+<div class="h-4 w-px bg-outline-variant/20"></div>
+<button class="flex items-center gap-2 group transition-colors text-on-surface-variant hover:text-on-surface">
+<span class="material-symbols-outlined text-[20px]" data-icon="zoom_in">zoom_in</span>
+<span class="font-label-sm text-label-sm uppercase opacity-60 group-hover:opacity-100">Zoom</span>
+</button>
+<div class="h-4 w-px bg-outline-variant/20"></div>
+<button class="flex items-center gap-2 group transition-colors text-on-surface-variant hover:text-on-surface">
+<span class="material-symbols-outlined text-[20px]" data-icon="sync">sync</span>
+<span class="font-label-sm text-label-sm uppercase opacity-60 group-hover:opacity-100">Rotate</span>
+</button>
+<div class="h-4 w-px bg-outline-variant/20"></div>
+<button class="p-1 text-on-surface-variant hover:text-on-surface transition-colors" title="Reset View">
+<span class="material-symbols-outlined text-[20px]" data-icon="center_focus_weak">center_focus_weak</span>
+</button>
+</div>
+</div>
+</body></html>

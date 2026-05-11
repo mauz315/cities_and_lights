@@ -3,37 +3,19 @@ import { OrbitControls } from 'three/examples/jsm/controls/OrbitControls.js';
 
 // Perlin noise algorithm for natural-looking terrain
 const perlin = {
-    rand_vect: function(){
-        let theta = Math.random() * 2 * Math.PI;
-        return {x: Math.cos(theta), y: Math.sin(theta)};
-    },
+    rand_vect: function(){ let theta = Math.random() * 2 * Math.PI; return {x: Math.cos(theta), y: Math.sin(theta)}; },
     dot_prod_grid: function(x, y, vx, vy){
         let g_vect;
         let d_vect = {x: x - vx, y: y - vy};
-        if (this.gradients[[vx,vy]]){
-            g_vect = this.gradients[[vx,vy]];
-        } else {
-            g_vect = this.rand_vect();
-            this.gradients[[vx,vy]] = g_vect;
-        }
+        if (this.gradients[[vx,vy]]){ g_vect = this.gradients[[vx,vy]]; } else { g_vect = this.rand_vect(); this.gradients[[vx,vy]] = g_vect; }
         return d_vect.x * g_vect.x + d_vect.y * g_vect.y;
     },
-    smootherstep: function(x){
-        return 6*x**5 - 15*x**4 + 10*x**3;
-    },
-    interp: function(x, a, b){
-        return a + this.smootherstep(x) * (b-a);
-    },
-    seed: function(){
-        this.gradients = {};
-        this.memory = {};
-    },
+    smootherstep: function(x){ return 6*x**5 - 15*x**4 + 10*x**3; },
+    interp: function(x, a, b){ return a + this.smootherstep(x) * (b-a); },
+    seed: function(){ this.gradients = {}; this.memory = {}; },
     get: function(x, y) {
-        if (this.memory.hasOwnProperty([x,y]))
-            return this.memory[[x,y]];
-        let xf = Math.floor(x);
-        let yf = Math.floor(y);
-        //interpolate
+        if (this.memory.hasOwnProperty([x,y])) return this.memory[[x,y]];
+        let xf = Math.floor(x); let yf = Math.floor(y);
         let tl = this.dot_prod_grid(x, y, xf,   yf);
         let tr = this.dot_prod_grid(x, y, xf+1, yf);
         let bl = this.dot_prod_grid(x, y, xf,   yf+1);
@@ -44,7 +26,7 @@ const perlin = {
         this.memory[[x,y]] = v;
         return v;
     }
-}
+};
 perlin.seed();
 
 class Visualizer {
@@ -52,39 +34,49 @@ class Visualizer {
         this.container = container;
         this.scene = new THREE.Scene();
         this.camera = new THREE.PerspectiveCamera(75, window.innerWidth / window.innerHeight, 0.1, 1000);
-        this.renderer = new THREE.WebGLRenderer({ antialias: true });
+        this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
         this.controls = new OrbitControls(this.camera, this.renderer.domElement);
         this.mountains = [];
+        this.init();
     }
 
     init() {
-        // Step 1: Environment Setup
         this.renderer.setSize(window.innerWidth, window.innerHeight);
-        this.renderer.setClearColor(0x101018); // Dark, segmented "Night Sky"
+        this.renderer.setClearColor(0x000000, 0); // Transparent background
         this.container.appendChild(this.renderer.domElement);
-        this.camera.position.z = 50;
-        this.camera.position.y = 20;
+        this.camera.position.set(0, 30, 80);
+        this.controls.enableDamping = true;
 
-        const ambientLight = new THREE.AmbientLight(0x404040, 2);
+        const ambientLight = new THREE.AmbientLight(0xcccccc, 1.5);
         this.scene.add(ambientLight);
-
-        const directionalLight = new THREE.DirectionalLight(0xffffff, 0.8);
-        directionalLight.position.set(10, 30, 20);
+        const directionalLight = new THREE.DirectionalLight(0xffffff, 1.0);
+        directionalLight.position.set(20, 50, 30);
         this.scene.add(directionalLight);
 
+        this.setupControls();
         window.addEventListener('resize', this.onWindowResize.bind(this), false);
         this.animate();
     }
 
+    setupControls() {
+        document.getElementById('pan-button')?.addEventListener('click', () => this.setControlMode('pan'));
+        document.getElementById('zoom-button')?.addEventListener('click', () => this.setControlMode('zoom'));
+        document.getElementById('rotate-button')?.addEventListener('click', () => this.setControlMode('rotate'));
+    }
+
+    setControlMode(mode) {
+        this.controls.enablePan = mode === 'pan';
+        this.controls.enableZoom = mode === 'zoom';
+        this.controls.enableRotate = mode === 'rotate';
+    }
+
     async loadData() {
-        // Step 2: Fetch and Parse Data
         try {
             const response = await fetch('/assets/data/mountains_data.json');
-            if (!response.ok) {
-                throw new Error(`HTTP error! status: ${response.status}`);
-            }
+            if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             const data = await response.json();
             this.createMountains(data);
+            this.populateCitySelector(data);
         } catch (error) {
             console.error("Could not load mountain data:", error);
         }
@@ -92,47 +84,28 @@ class Visualizer {
 
     createMountains(data) {
         const textureLoader = new THREE.TextureLoader();
-        // Placeholder textures - replace with your actual texture paths
         const industrialTexture = textureLoader.load('/assets/textures/industrial.jpg');
         const naturalTexture = textureLoader.load('/assets/textures/natural.jpg');
 
         data.forEach((cityData, index) => {
-            // Step 3: Geometry Initialization
-            const geometry = new THREE.PlaneGeometry(
-                cityData.baseWidth * 50 + 10, // baseWidth
-                cityData.baseWidth * 50 + 10, // baseWidth
-                100, // Width segments
-                100  // Height segments
-            );
-
+            const geometry = new THREE.PlaneGeometry(cityData.baseWidth * 40 + 15, cityData.baseWidth * 40 + 15, 100, 100);
             const positionAttribute = geometry.attributes.position;
             const vertex = new THREE.Vector3();
 
-            // Step 4: Procedural Displacement (The "Sculpting")
             for (let i = 0; i < positionAttribute.count; i++) {
                 vertex.fromBufferAttribute(positionAttribute, i);
-
                 const dist = Math.sqrt(vertex.x**2 + vertex.y**2);
-                const normalizedDist = dist / ((cityData.baseWidth * 50 + 10) / 2);
-
-                // Height: Apply peakHeight with a falloff from the center
-                let height = cityData.peakHeight * 30 * (1 - normalizedDist);
-
-                // Jaggedness: Apply Perlin noise based on roughness
+                const normalizedDist = dist / ((cityData.baseWidth * 40 + 15) / 2);
+                let height = cityData.peakHeight * 25 * (1 - normalizedDist);
                 const noise = perlin.get(vertex.x * 0.1 * (1 + cityData.roughness), vertex.y * 0.1 * (1 + cityData.roughness));
                 height += noise * 5 * cityData.roughness;
-
-                // Peak Sharpening: Pull vertices near the center higher
                 if (normalizedDist < 0.5) {
                     height *= 1 + (0.5 - normalizedDist) * cityData.peakSharpness;
                 }
-
-                // Apply the calculated height to the vertex's z-coordinate
                 positionAttribute.setZ(i, height);
             }
-            geometry.computeVertexNormals(); // Recalculate normals for correct lighting
+            geometry.computeVertexNormals();
 
-            // Step 5: Texture and Material Mapping
             const material = new THREE.MeshStandardMaterial({
                 map: cityData.textureID === 'industrial' ? industrialTexture : naturalTexture,
                 roughness: 0.7,
@@ -140,15 +113,36 @@ class Visualizer {
             });
 
             const mountain = new THREE.Mesh(geometry, material);
-            mountain.rotation.x = -Math.PI / 2; // Rotate plane to be horizontal
-
-            // Step 6: Instantiation and Positioning
+            mountain.rotation.x = -Math.PI / 2;
             mountain.position.x = (index - (data.length - 1) / 2) * 60;
-            mountain.userData = cityData; // Store data for interaction
-
+            mountain.userData = cityData;
+            
             this.scene.add(mountain);
             this.mountains.push(mountain);
         });
+    }
+
+    populateCitySelector(data) {
+        const container = document.getElementById('city-buttons');
+        if (!container) return;
+        container.innerHTML = ''; // Clear existing buttons
+        data.forEach((cityData, index) => {
+            const button = document.createElement('button');
+            button.className = 'w-full flex justify-between items-center px-4 py-2.5 hover:bg-white/5 transition-colors group';
+            button.innerHTML = `<span class="font-body-md text-on-surface-variant group-hover:text-on-surface transition-colors">${cityData.city}</span>`;
+            button.onclick = () => this.focusOnMountain(index);
+            container.appendChild(button);
+        });
+    }
+
+    focusOnMountain(index) {
+        if (this.mountains[index]) {
+            const targetPosition = this.mountains[index].position;
+            // Simple focus - for a smoother transition, you would use a tweening library like GSAP
+            this.camera.position.x = targetPosition.x;
+            this.camera.position.z = targetPosition.z + 60;
+            this.controls.target.copy(targetPosition);
+        }
     }
 
     onWindowResize() {
@@ -158,19 +152,7 @@ class Visualizer {
     }
 
     animate() {
-        // Step 7: The Render Loop
         requestAnimationFrame(this.animate.bind(this));
-
-        this.mountains.forEach(mountain => {
-            // Animation: Pulsing glow based on the 'glow' variable
-            if (mountain.userData.glow > 0.5) {
-                const glowIntensity = (Math.sin(Date.now() * 0.002) + 1) / 2;
-                // This is a simplified glow. For a real glow effect, you'd use post-processing.
-                mountain.material.emissive.set(0xffff00);
-                mountain.material.emissiveIntensity = glowIntensity * mountain.userData.glow;
-            }
-        });
-
         this.controls.update();
         this.renderer.render(this.scene, this.camera);
     }
