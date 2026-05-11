@@ -66,7 +66,18 @@ def prepare_mountain_data(file_path, output_path):
             "creviceDepth": row['Traffic_Weight_norm'],
             "cloudLevel": row['Air_Quality_Index_norm'],
             "textureID": "industrial" if row['Traffic_Weight_norm'] > 0.6 else "natural",
-            "glow": (row['Happiness_Score_norm'] + row['Decibel_Level_norm']) / 2
+            "glow": (row['Happiness_Score_norm'] + row['Decibel_Level_norm']) / 2,
+            
+            # Original Data Mapping
+            "originalData": {
+                "Decibel Level": round(row['Decibel_Level'], 2),
+                "Traffic Density": "Low" if row['Traffic_Weight'] <= 0.25 else "Medium" if row['Traffic_Weight'] <= 0.55 else "High" if row['Traffic_Weight'] <= 0.85 else "Very High",
+                "Green Space Area (%)": round(row['Green_Space_Area'], 2),
+                "Air Quality Index": round(row['Air_Quality_Index'], 2),
+                "Happiness Score": round(row['Happiness_Score'], 2),
+                "Cost of Living Index": round(row['Cost_of_Living_Index'], 2),
+                "Healthcare Index": round(row['Healthcare_Index'], 2)
+            }
         }
         mountains.append(mountain)
 
@@ -74,7 +85,13 @@ def prepare_mountain_data(file_path, output_path):
     with open(output_path, 'w') as f:
         json.dump(mountains, f, indent=4)
     
-    print(f"Success: '{os.path.basename(output_path)}' created.")
+    # Also save a copy to public/assets/data/ for the web app to use
+    public_output_path = os.path.join(os.path.dirname(os.path.dirname(script_dir)), 'public', 'assets', 'data', 'mountains_data.json')
+    os.makedirs(os.path.dirname(public_output_path), exist_ok=True)
+    with open(public_output_path, 'w') as f:
+        json.dump(mountains, f, indent=4)
+        
+    print(f"Success: '{os.path.basename(output_path)}' created and copied to public/assets/data/.")
 
 # Get the absolute path of the directory where the script is located
 script_dir = os.path.dirname(os.path.abspath(__file__))

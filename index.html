@@ -13,13 +13,35 @@
         .viewport-grid { background-image: linear-gradient(rgba(255, 255, 255, 0.02) 1px, transparent 1px), linear-gradient(90deg, rgba(255, 255, 255, 0.02) 1px, transparent 1px); background-size: 60px 60px; }
         #app { position: fixed; top: 0; left: 0; width: 100vw; height: 100vh; z-index: 1; }
         canvas { display: block; }
+
+        /* Custom scrollbar for the city selector */
+        .custom-scrollbar::-webkit-scrollbar {
+            width: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-track {
+            background: transparent;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 4px;
+        }
+        .custom-scrollbar::-webkit-scrollbar-thumb:hover {
+            background: rgba(255, 255, 255, 0.2);
+        }
     </style>
     <script id="tailwind-config">
         tailwind.config = {
             darkMode: "class",
             theme: {
                 extend: {
-                    "colors": { "background": "#131315", "on-surface": "#e5e1e4", "on-surface-variant": "#bac9cd", "outline-variant": "#3b494c" },
+                    "colors": {
+                        "background": "#131315",
+                        "on-surface": "#e5e1e4",
+                        "on-surface-variant": "#bac9cd",
+                        "outline-variant": "#3b494c",
+                        "primary": "#baf2ff",
+                        "surface-tint": "#00daf8"
+                    },
                     "borderRadius": { "DEFAULT": "0.125rem", "lg": "0.25rem", "xl": "0.5rem", "full": "0.75rem" },
                     "spacing": { "unit": "4px", "gutter": "12px" },
                     "fontFamily": { "body-md": ["JetBrains Mono"], "label-sm": ["JetBrains Mono"] },
@@ -36,18 +58,18 @@
 
 <!-- City Selector Menu -->
 <div class="fixed top-8 left-8 z-30">
-    <div class="glass-panel p-1 flex flex-col gap-1 w-60">
-        <div class="px-4 py-2 mb-1">
-            <span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest opacity-60">Topography</span>
+    <div class="glass-panel p-1 flex flex-col gap-1 w-64 max-h-[80vh]">
+        <div class="px-4 py-3 mb-1 border-b border-white/5">
+            <span class="font-label-sm text-label-sm text-on-surface-variant uppercase tracking-widest opacity-60">Topography Database</span>
         </div>
-        <div id="city-buttons" class="space-y-px">
+        <div id="city-buttons" class="space-y-px overflow-y-auto custom-scrollbar flex-1 pb-2">
             <!-- City buttons will be dynamically inserted here -->
         </div>
     </div>
 </div>
 
 <!-- Mountain Details Panel -->
-<div id="mountain-details" class="fixed bottom-24 right-8 z-30 glass-panel p-4 rounded-lg w-72 hidden">
+<div id="mountain-details" class="fixed bottom-24 right-8 z-30 glass-panel p-6 rounded-lg w-[450px] hidden">
     <!-- Details will be dynamically inserted here -->
 </div>
 
@@ -92,7 +114,6 @@
     // Tell the visualizer to load your mountain data
     vis.loadData();
 </script>
-
 
 </body>
 </html>
