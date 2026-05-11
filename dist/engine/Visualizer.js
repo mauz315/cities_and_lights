@@ -40,7 +40,7 @@ class Visualizer {
         this.data = [];
         
         // Use Vite's base URL for correct path resolution in prod and dev
-        this.baseUrl = import.meta.env.BASE_URL;
+        this.baseUrl = import.meta.env ? import.meta.env.BASE_URL : './';
         
         this.init();
     }
@@ -78,7 +78,7 @@ class Visualizer {
     async loadData() {
         try {
             // Updated path to use baseUrl
-            const response = await fetch(`./assets/data/mountains_data.json`);
+            const response = await fetch(`${this.baseUrl}assets/data/mountains_data.json`);
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
             this.data = await response.json();
             this.createMountains(this.data);
@@ -91,8 +91,8 @@ class Visualizer {
     createMountains(data) {
         const textureLoader = new THREE.TextureLoader();
         // Updated paths to use baseUrl
-        const industrialTexture = textureLoader.load(`./assets/textures/industrial.jpg`);
-        const naturalTexture = textureLoader.load(`./assets/textures/natural.jpg`);
+        const industrialTexture = textureLoader.load(`${this.baseUrl}assets/textures/industrial.jpg`);
+        const naturalTexture = textureLoader.load(`${this.baseUrl}assets/textures/natural.jpg`);
 
         data.forEach((cityData, index) => {
             const geometry = new THREE.PlaneGeometry(cityData.baseWidth * 40 + 15, cityData.baseWidth * 40 + 15, 100, 100);
@@ -162,22 +162,65 @@ class Visualizer {
         detailsPanel.classList.remove('hidden');
 
         const title = document.createElement('h3');
-        title.className = 'font-bold text-lg mb-2 text-on-surface';
+        title.className = 'font-bold text-xl mb-4 text-on-surface text-center uppercase tracking-widest border-b border-white/20 pb-2';
         title.textContent = cityData.city;
         detailsPanel.appendChild(title);
 
-        const list = document.createElement('ul');
-        list.className = 'space-y-1 text-sm';
-        detailsPanel.appendChild(list);
+        const flexContainer = document.createElement('div');
+        flexContainer.className = 'flex gap-6';
 
-        for (const [key, value] of Object.entries(cityData)) {
-            if (key === 'city') continue; // Skip the city name itself
-            const listItem = document.createElement('li');
-            listItem.className = 'flex justify-between gap-4 border-b border-white/10 pb-1';
-            const valueFormatted = typeof value === 'number' ? value.toFixed(2) : value;
-            listItem.innerHTML = `<span class="text-on-surface-variant capitalize">${key.replace(/([A-Z])/g, ' $1').trim()}:</span> <span class="font-bold text-surface-tint">${valueFormatted}</span>`;
-            list.appendChild(listItem);
+        // Original Data Column
+        const originalCol = document.createElement('div');
+        originalCol.className = 'flex-1';
+        
+        const originalHeader = document.createElement('h4');
+        originalHeader.className = 'text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-3 opacity-70';
+        originalHeader.textContent = 'Economic Indicators';
+        originalCol.appendChild(originalHeader);
+        
+        const originalList = document.createElement('ul');
+        originalList.className = 'space-y-2 text-sm';
+        
+        if (cityData.originalData) {
+            for (const [key, value] of Object.entries(cityData.originalData)) {
+                const listItem = document.createElement('li');
+                listItem.className = 'flex flex-col border-l-2 border-primary/30 pl-2';
+                listItem.innerHTML = `<span class="text-xs text-on-surface-variant mb-0.5">${key}</span> <span class="font-mono text-on-surface">${value}</span>`;
+                originalList.appendChild(listItem);
+            }
         }
+        originalCol.appendChild(originalList);
+
+        // Map Characteristics Column
+        const characteristicsCol = document.createElement('div');
+        characteristicsCol.className = 'flex-1 border-l border-white/10 pl-6';
+        
+        const charsHeader = document.createElement('h4');
+        charsHeader.className = 'text-xs font-bold text-on-surface-variant uppercase tracking-widest mb-3 opacity-70';
+        charsHeader.textContent = 'Terrain Topology';
+        characteristicsCol.appendChild(charsHeader);
+
+        const charsList = document.createElement('ul');
+        charsList.className = 'space-y-2 text-sm';
+        
+        const characteristicsToShow = ['peakHeight', 'baseWidth', 'roughness', 'numPeaks', 'snowCap', 'treeDensity', 'steepness'];
+        
+        for (const key of characteristicsToShow) {
+            if (cityData[key] !== undefined) {
+                const listItem = document.createElement('li');
+                listItem.className = 'flex justify-between items-center border-b border-white/5 pb-1';
+                const formattedKey = key.replace(/([A-Z])/g, ' $1').replace(/^./, str => str.toUpperCase());
+                const valueFormatted = typeof cityData[key] === 'number' && !Number.isInteger(cityData[key]) ? cityData[key].toFixed(2) : cityData[key];
+                
+                listItem.innerHTML = `<span class="text-xs text-on-surface-variant">${formattedKey}</span> <span class="font-mono text-xs text-primary">${valueFormatted}</span>`;
+                charsList.appendChild(listItem);
+            }
+        }
+        characteristicsCol.appendChild(charsList);
+
+        flexContainer.appendChild(originalCol);
+        flexContainer.appendChild(characteristicsCol);
+        detailsPanel.appendChild(flexContainer);
     }
 
     onWindowResize() {
