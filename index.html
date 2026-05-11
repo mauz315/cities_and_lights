@@ -71,7 +71,28 @@
     </div>
 </div>
 
-<script type="module" src="/src/main.js"></script>
+<script type="importmap">
+{
+  "imports": {
+    "three": "https://unpkg.com/three@0.160.0/build/three.module.js",
+    "three/examples/jsm/controls/OrbitControls.js": "https://unpkg.com/three@0.160.0/examples/jsm/controls/OrbitControls.js"
+  }
+}
+</script>
+
+<script type="module">
+    import Visualizer from '/src/engine/Visualizer.js';
+
+    // Select the "app" div we defined in the body
+    const container = document.getElementById('app');
+
+    // Create the visualizer instance
+    const vis = new Visualizer(container);
+
+    // Tell the visualizer to load your mountain data
+    vis.loadData();
+</script>
+
 
 </body>
 </html>

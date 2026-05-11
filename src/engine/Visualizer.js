@@ -37,6 +37,7 @@ class Visualizer {
         this.renderer = new THREE.WebGLRenderer({ antialias: true, alpha: true });
         this.controls = new OrbitControls(this.camera, this.renderer.domElement);
         this.mountains = [];
+        this.data = [];
         this.init();
     }
 
@@ -74,9 +75,9 @@ class Visualizer {
         try {
             const response = await fetch('/assets/data/mountains_data.json');
             if (!response.ok) throw new Error(`HTTP error! status: ${response.status}`);
-            const data = await response.json();
-            this.createMountains(data);
-            this.populateCitySelector(data);
+            this.data = await response.json();
+            this.createMountains(this.data);
+            this.populateCitySelector(this.data);
         } catch (error) {
             console.error("Could not load mountain data:", error);
         }
@@ -142,6 +143,34 @@ class Visualizer {
             this.camera.position.x = targetPosition.x;
             this.camera.position.z = targetPosition.z + 60;
             this.controls.target.copy(targetPosition);
+
+            this.updateMountainDetailsPanel(this.data[index]);
+        }
+    }
+
+    updateMountainDetailsPanel(cityData) {
+        const detailsPanel = document.getElementById('mountain-details');
+        if (!detailsPanel) return;
+
+        detailsPanel.innerHTML = ''; // Clear previous details
+        detailsPanel.classList.remove('hidden');
+
+        const title = document.createElement('h3');
+        title.className = 'font-bold text-lg mb-2 text-on-surface';
+        title.textContent = cityData.city;
+        detailsPanel.appendChild(title);
+
+        const list = document.createElement('ul');
+        list.className = 'space-y-1 text-sm';
+        detailsPanel.appendChild(list);
+
+        for (const [key, value] of Object.entries(cityData)) {
+            if (key === 'city') continue; // Skip the city name itself
+            const listItem = document.createElement('li');
+            listItem.className = 'flex justify-between';
+            const valueFormatted = typeof value === 'number' ? value.toFixed(2) : value;
+            listItem.innerHTML = `<span class="text-on-surface-variant">${key}:</span> <span class="font-bold text-on-surface">${valueFormatted}</span>`;
+            list.appendChild(listItem);
         }
     }
 
